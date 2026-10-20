@@ -23,9 +23,13 @@ foreach ($release in ($index.releases | Sort-Object publishedAt)) {
 - [PCLR 当前修复版](https://github.com/$Repository/releases/latest)
 
 "@
+    if ($release.excludedPackages.Count -gt 0) {
+        $body += "`n以下历史包变体被本机 Windows 安全软件拦截，按维护者选择的处理原则不单独重新上传；保留源码记录与上游链接，不对这些文件的安全性作结论。`n"
+        foreach ($excluded in $release.excludedPackages) { $body += "`n[$($excluded.commitMessage)]($($excluded.sourceUrl))`n" }
+    }
     if ($release.binaryAvailable) {
         $body += "`n附件为上游原样压缩包，保留原有程序与签名；可用 docs/upstream-history.json 中的 Git blob 与 SHA-256 核验。`n"
-    } else {
+    } elseif ($release.excludedPackages.Count -eq 0) {
         $body += "`n上游仓库没有公开此版本对应的二进制包，本条保留真实源码发行记录，不使用其他版本程序冒充。GitHub 自动生成的源码归档不包含子模块内容。`n"
     }
     $body += "`n历史原版可能仍会自动更新到上游版本，且可能无法适配当前服务。日常使用请选择 PCLR 当前修复版。许可与第三方声明以对应上游版本为准。"

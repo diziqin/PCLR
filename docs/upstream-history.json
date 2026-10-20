@@ -1,0 +1,1812 @@
+{
+  "upstream": "https://github.com/Meloong-Git/PCL",
+  "snapshotCommit": "6b9a50df911c9d68b69b24c979efba477fb14b67",
+  "releaseCount": 88,
+  "packageCount": 50,
+  "excludedPackages": [
+    {
+      "commit": "5843649cfa7fc2d7727fa43c7a43f8370f5aaa98",
+      "commitMessage": "2.6.15 正式版",
+      "gitBlob": "c5703bf89575b17a6a6b6983ccb9c4f99a64f273",
+      "excluded": true,
+      "reason": "Windows security blocked access; owner requested source and upstream link only.",
+      "sourceUrl": "https://github.com/Meloong-Git/PCL/blob/5843649cfa7fc2d7727fa43c7a43f8370f5aaa98/%E6%9C%80%E6%96%B0%E6%AD%A3%E5%BC%8F%E7%89%88.zip"
+    },
+    {
+      "commit": "c98e0367d055686ae56348ce3b0a58567fe4cd75",
+      "commitMessage": "2.6.10 正式版重新签名",
+      "gitBlob": "bbc431a2b08eede8a783fbe3a03bcebf422c0ecd",
+      "excluded": true,
+      "reason": "Windows security blocked access; following owner-approved source-and-upstream-link-only handling.",
+      "sourceUrl": "https://github.com/Meloong-Git/PCL/blob/c98e0367d055686ae56348ce3b0a58567fe4cd75/%E6%9C%80%E6%96%B0%E6%AD%A3%E5%BC%8F%E7%89%88.zip"
+    }
+  ],
+  "releases": [
+    {
+      "tag": "2.99.0.0",
+      "name": "2.99.0.0",
+      "commit": "6b9a50df911c9d68b69b24c979efba477fb14b67",
+      "publishedAt": "2026-10-20T07:01:34Z",
+      "prerelease": false,
+      "upstreamUrl": "https://github.com/Meloong-Git/PCL/releases/tag/2.99.0.0",
+      "packages": [
+        "PCL-upstream-6b9a50df911c.zip"
+      ],
+      "binaryAvailable": true,
+      "excludedPackages": []
+    },
+    {
+      "tag": "2.14.0.0",
+      "name": "2.14.0.0",
+      "commit": "ade6e04c6eab65e945b0fc51faae1ba8e714245c",
+      "publishedAt": "2026-10-16T19:50:18Z",
+      "prerelease": true,
+      "upstreamUrl": "https://github.com/Meloong-Git/PCL/releases/tag/2.14.0.0",
+      "packages": [
+        "PCL-upstream-5ef81e490ae4.zip"
+      ],
+      "binaryAvailable": true,
+      "excludedPackages": []
+    },
+    {
+      "tag": "2.13.1.1",
+      "name": "2.13.1.1",
+      "commit": "0ce35fe7e5cb939500ef754ff177b082927374ad",
+      "publishedAt": "2026-08-06T14:35:13Z",
+      "prerelease": false,
+      "upstreamUrl": "https://github.com/Meloong-Git/PCL/releases/tag/2.13.1.1",
+      "packages": [
+        "PCL-upstream-904de2af7153.zip"
+      ],
+      "binaryAvailable": true,
+      "excludedPackages": []
+    },
+    {
+      "tag": "2.13.1.0",
+      "name": "2.13.1.0",
+      "commit": "7fb6e5d68ea913f6c06edfde2bead3242329e09f",
+      "publishedAt": "2026-08-01T17:13:16Z",
+      "prerelease": false,
+      "upstreamUrl": "https://github.com/Meloong-Git/PCL/releases/tag/2.13.1.0",
+      "packages": [],
+      "binaryAvailable": false,
+      "excludedPackages": []
+    },
+    {
+      "tag": "2.13.0.1",
+      "name": "2.13.0.1",
+      "commit": "5b05f870674a58f1a6608a4ae69e6d9ed902f11e",
+      "publishedAt": "2026-07-03T07:11:06Z",
+      "prerelease": false,
+      "upstreamUrl": "https://github.com/Meloong-Git/PCL/releases/tag/2.13.0.1",
+      "packages": [
+        "PCL-upstream-cf7f8cbe1965.zip"
+      ],
+      "binaryAvailable": true,
+      "excludedPackages": []
+    },
+    {
+      "tag": "2.13.0.0",
+      "name": "2.13.0.0",
+      "commit": "c6d04579462b3ac526a5a1b3c39a8aeaa69dc6b3",
+      "publishedAt": "2026-07-02T15:30:23Z",
+      "prerelease": true,
+      "upstreamUrl": "https://github.com/Meloong-Git/PCL/releases/tag/2.13.0.0",
+      "packages": [],
+      "binaryAvailable": false,
+      "excludedPackages": []
+    },
+    {
+      "tag": "2.12.8.2",
+      "name": "2.12.8.2",
+      "commit": "9be217fe12ae435a11eb25dae4e58bdc511879aa",
+      "publishedAt": "2026-05-24T11:22:08Z",
+      "prerelease": false,
+      "upstreamUrl": "https://github.com/Meloong-Git/PCL/releases/tag/2.12.8.2",
+      "packages": [
+        "PCL-upstream-105e798744db.zip"
+      ],
+      "binaryAvailable": true,
+      "excludedPackages": []
+    },
+    {
+      "tag": "2.12.8.1",
+      "name": "2.12.8.1",
+      "commit": "c86fdc3af17b6b5f3ea63bd8e68aef3576eea3a9",
+      "publishedAt": "2026-05-20T17:26:44Z",
+      "prerelease": false,
+      "upstreamUrl": "https://github.com/Meloong-Git/PCL/releases/tag/2.12.8.1",
+      "packages": [
+        "PCL-upstream-4d51dda61ec1.zip"
+      ],
+      "binaryAvailable": true,
+      "excludedPackages": []
+    },
+    {
+      "tag": "2.12.8.0",
+      "name": "2.12.8.0",
+      "commit": "409e1ccdc169d64669f62e748b962969357c0ed3",
+      "publishedAt": "2026-05-15T15:57:58Z",
+      "prerelease": false,
+      "upstreamUrl": "https://github.com/Meloong-Git/PCL/releases/tag/2.12.8.0",
+      "packages": [],
+      "binaryAvailable": false,
+      "excludedPackages": []
+    },
+    {
+      "tag": "2.12.7.3",
+      "name": "2.12.7.3",
+      "commit": "1b4d1296e7485a7406f580f92061019d41f9fbec",
+      "publishedAt": "2026-04-28T23:54:50Z",
+      "prerelease": false,
+      "upstreamUrl": "https://github.com/Meloong-Git/PCL/releases/tag/2.12.7.3",
+      "packages": [
+        "PCL-upstream-20846ed523f2.zip"
+      ],
+      "binaryAvailable": true,
+      "excludedPackages": []
+    },
+    {
+      "tag": "2.12.7.2",
+      "name": "2.12.7.2",
+      "commit": "793e07da038c2340e10bce10a77f237d1b255753",
+      "publishedAt": "2026-04-28T23:21:55Z",
+      "prerelease": false,
+      "upstreamUrl": "https://github.com/Meloong-Git/PCL/releases/tag/2.12.7.2",
+      "packages": [],
+      "binaryAvailable": false,
+      "excludedPackages": []
+    },
+    {
+      "tag": "2.12.6.2",
+      "name": "2.12.6.2",
+      "commit": "f578dbd78486fcacf7c2835325daa44afbd408f3",
+      "publishedAt": "2026-04-03T09:30:49Z",
+      "prerelease": false,
+      "upstreamUrl": "https://github.com/Meloong-Git/PCL/releases/tag/2.12.6.2",
+      "packages": [
+        "PCL-upstream-f578dbd78486.zip"
+      ],
+      "binaryAvailable": true,
+      "excludedPackages": []
+    },
+    {
+      "tag": "2.12.6.1",
+      "name": "2.12.6.1",
+      "commit": "2a010432615afd11fb2919cc36eeadd30f4127c6",
+      "publishedAt": "2026-04-02T10:45:38Z",
+      "prerelease": false,
+      "upstreamUrl": "https://github.com/Meloong-Git/PCL/releases/tag/2.12.6.1",
+      "packages": [
+        "PCL-upstream-2a010432615a.zip"
+      ],
+      "binaryAvailable": true,
+      "excludedPackages": []
+    },
+    {
+      "tag": "2.12.6",
+      "name": "2.12.6",
+      "commit": "c850596cab43c18354582caf52d3c813c42d0fcb",
+      "publishedAt": "2026-03-29T20:37:31Z",
+      "prerelease": false,
+      "upstreamUrl": "https://github.com/Meloong-Git/PCL/releases/tag/2.12.6",
+      "packages": [
+        "PCL-upstream-c850596cab43.zip"
+      ],
+      "binaryAvailable": true,
+      "excludedPackages": []
+    },
+    {
+      "tag": "2.12.5",
+      "name": "2.12.5",
+      "commit": "af8be245062916db3b84cf2eac4d1bddc2704e53",
+      "publishedAt": "2026-03-26T23:21:49Z",
+      "prerelease": false,
+      "upstreamUrl": "https://github.com/Meloong-Git/PCL/releases/tag/2.12.5",
+      "packages": [],
+      "binaryAvailable": false,
+      "excludedPackages": []
+    },
+    {
+      "tag": "2.12.4",
+      "name": "2.12.4",
+      "commit": "6a140ce5b912905ff9268de577be6c0212612663",
+      "publishedAt": "2026-03-24T15:14:09Z",
+      "prerelease": false,
+      "upstreamUrl": "https://github.com/Meloong-Git/PCL/releases/tag/2.12.4",
+      "packages": [],
+      "binaryAvailable": false,
+      "excludedPackages": []
+    },
+    {
+      "tag": "2.12.3",
+      "name": "2.12.3",
+      "commit": "be67c4ccc2c553ff3853ec109be2836485ecfd0b",
+      "publishedAt": "2026-03-08T13:09:00Z",
+      "prerelease": false,
+      "upstreamUrl": "https://github.com/Meloong-Git/PCL/releases/tag/2.12.3",
+      "packages": [
+        "PCL-upstream-df1bab0ebe0e.zip"
+      ],
+      "binaryAvailable": true,
+      "excludedPackages": []
+    },
+    {
+      "tag": "2.12.2",
+      "name": "2.12.2",
+      "commit": "52b4c87fbc16dfa8ea9462c1f549a91e69f15221",
+      "publishedAt": "2026-01-14T19:24:42Z",
+      "prerelease": false,
+      "upstreamUrl": "https://github.com/Meloong-Git/PCL/releases/tag/2.12.2",
+      "packages": [
+        "PCL-upstream-73bdc533097c.zip"
+      ],
+      "binaryAvailable": true,
+      "excludedPackages": []
+    },
+    {
+      "tag": "2.12.1",
+      "name": "2.12.1",
+      "commit": "a674630f54d346141189660c283b353051137b00",
+      "publishedAt": "2025-12-26T21:54:15Z",
+      "prerelease": false,
+      "upstreamUrl": "https://github.com/Meloong-Git/PCL/releases/tag/2.12.1",
+      "packages": [
+        "PCL-upstream-68f4808c1ceb.zip"
+      ],
+      "binaryAvailable": true,
+      "excludedPackages": []
+    },
+    {
+      "tag": "2.12.0",
+      "name": "2.12.0",
+      "commit": "1ecff91c1cc35b0225dd0385d98c34381aec3467",
+      "publishedAt": "2025-12-26T19:18:57Z",
+      "prerelease": false,
+      "upstreamUrl": "https://github.com/Meloong-Git/PCL/releases/tag/2.12.0",
+      "packages": [],
+      "binaryAvailable": false,
+      "excludedPackages": []
+    },
+    {
+      "tag": "2.11.2",
+      "name": "2.11.2",
+      "commit": "efd480f06cc306ec0ae557c2286f1b2b119d4354",
+      "publishedAt": "2025-11-06T15:01:18Z",
+      "prerelease": false,
+      "upstreamUrl": "https://github.com/Meloong-Git/PCL/releases/tag/2.11.2",
+      "packages": [],
+      "binaryAvailable": false,
+      "excludedPackages": []
+    },
+    {
+      "tag": "2.11.1",
+      "name": "2.11.1",
+      "commit": "efd480f06cc306ec0ae557c2286f1b2b119d4354",
+      "publishedAt": "2025-11-01T03:57:25Z",
+      "prerelease": false,
+      "upstreamUrl": "https://github.com/Meloong-Git/PCL/releases/tag/2.11.1",
+      "packages": [],
+      "binaryAvailable": false,
+      "excludedPackages": []
+    },
+    {
+      "tag": "2.11.0",
+      "name": "2.11.0",
+      "commit": "8d2eb85aec219f6be24b3c3462d9ab4a506baba4",
+      "publishedAt": "2025-10-24T14:44:18Z",
+      "prerelease": true,
+      "upstreamUrl": "https://github.com/Meloong-Git/PCL/releases/tag/2.11.0",
+      "packages": [],
+      "binaryAvailable": false,
+      "excludedPackages": []
+    },
+    {
+      "tag": "2.10.9",
+      "name": "2.10.9",
+      "commit": "a41579b1da3beadcae904b44405fe52bd4282acc",
+      "publishedAt": "2025-10-06T21:00:51Z",
+      "prerelease": false,
+      "upstreamUrl": "https://github.com/Meloong-Git/PCL/releases/tag/2.10.9",
+      "packages": [
+        "PCL-upstream-00966bec6a67.zip"
+      ],
+      "binaryAvailable": true,
+      "excludedPackages": []
+    },
+    {
+      "tag": "2.10.8",
+      "name": "2.10.8",
+      "commit": "6f6744dfd2ddb71a0dbd71f375b34921a1c5fda3",
+      "publishedAt": "2025-09-12T15:41:16Z",
+      "prerelease": false,
+      "upstreamUrl": "https://github.com/Meloong-Git/PCL/releases/tag/2.10.8",
+      "packages": [
+        "PCL-upstream-49984a291358.zip"
+      ],
+      "binaryAvailable": true,
+      "excludedPackages": []
+    },
+    {
+      "tag": "2.10.7",
+      "name": "2.10.7",
+      "commit": "2210da6fda610ba1cb097457e85a9d484684188c",
+      "publishedAt": "2025-09-09T17:09:13Z",
+      "prerelease": false,
+      "upstreamUrl": "https://github.com/Meloong-Git/PCL/releases/tag/2.10.7",
+      "packages": [],
+      "binaryAvailable": false,
+      "excludedPackages": []
+    },
+    {
+      "tag": "2.10.6",
+      "name": "2.10.6",
+      "commit": "adf52d56b776df17a5a4785ab5ca85358b774821",
+      "publishedAt": "2025-08-12T17:11:49Z",
+      "prerelease": false,
+      "upstreamUrl": "https://github.com/Meloong-Git/PCL/releases/tag/2.10.6",
+      "packages": [
+        "PCL-upstream-8e095ddaeda9.zip"
+      ],
+      "binaryAvailable": true,
+      "excludedPackages": []
+    },
+    {
+      "tag": "2.10.5",
+      "name": "2.10.5",
+      "commit": "28ef67ee0f3c4e636b73eedf99b1a324034a15a4",
+      "publishedAt": "2025-07-22T15:51:33Z",
+      "prerelease": false,
+      "upstreamUrl": "https://github.com/Meloong-Git/PCL/releases/tag/2.10.5",
+      "packages": [
+        "PCL-upstream-8e0f53c8813b.zip"
+      ],
+      "binaryAvailable": true,
+      "excludedPackages": []
+    },
+    {
+      "tag": "2.10.4",
+      "name": "2.10.4",
+      "commit": "add4153067880890a64133a9f78a8e23a8fd83dc",
+      "publishedAt": "2025-07-22T13:13:02Z",
+      "prerelease": true,
+      "upstreamUrl": "https://github.com/Meloong-Git/PCL/releases/tag/2.10.4",
+      "packages": [],
+      "binaryAvailable": false,
+      "excludedPackages": []
+    },
+    {
+      "tag": "2.10.3",
+      "name": "2.10.3",
+      "commit": "fdf5407ea3eecad953620dacb0e4733b1480117a",
+      "publishedAt": "2025-06-17T08:58:26Z",
+      "prerelease": false,
+      "upstreamUrl": "https://github.com/Meloong-Git/PCL/releases/tag/2.10.3",
+      "packages": [
+        "PCL-upstream-fdf5407ea3ee.zip"
+      ],
+      "binaryAvailable": true,
+      "excludedPackages": []
+    },
+    {
+      "tag": "2.10.2",
+      "name": "2.10.2",
+      "commit": "ebc9f5e31fff584e518d14a8c37ebc08c8a9a6f0",
+      "publishedAt": "2025-06-16T21:27:52Z",
+      "prerelease": false,
+      "upstreamUrl": "https://github.com/Meloong-Git/PCL/releases/tag/2.10.2",
+      "packages": [
+        "PCL-upstream-4585f310822a.zip"
+      ],
+      "binaryAvailable": true,
+      "excludedPackages": []
+    },
+    {
+      "tag": "2.10.1",
+      "name": "2.10.1",
+      "commit": "6b0c923777b0458fe214007731275cafd1afcb8f",
+      "publishedAt": "2025-05-31T09:12:15Z",
+      "prerelease": false,
+      "upstreamUrl": "https://github.com/Meloong-Git/PCL/releases/tag/2.10.1",
+      "packages": [],
+      "binaryAvailable": false,
+      "excludedPackages": []
+    },
+    {
+      "tag": "2.10.0",
+      "name": "2.10.0",
+      "commit": "44aea3e9626f69e98c1e930555d0bbc9f77a6963",
+      "publishedAt": "2025-04-29T10:22:52Z",
+      "prerelease": false,
+      "upstreamUrl": "https://github.com/Meloong-Git/PCL/releases/tag/2.10.0",
+      "packages": [
+        "PCL-upstream-bf6fa718c89e.zip"
+      ],
+      "binaryAvailable": true,
+      "excludedPackages": []
+    },
+    {
+      "tag": "2.9.3",
+      "name": "2.9.3",
+      "commit": "16e09c792ce8c13435fc6827e6da54170aaa3bc0",
+      "publishedAt": "2025-04-05T10:27:32Z",
+      "prerelease": false,
+      "upstreamUrl": "https://github.com/Meloong-Git/PCL/releases/tag/2.9.3",
+      "packages": [
+        "PCL-upstream-16e09c792ce8.zip"
+      ],
+      "binaryAvailable": true,
+      "excludedPackages": []
+    },
+    {
+      "tag": "2.9.2",
+      "name": "2.9.2",
+      "commit": "6ed967281b194b8a2738e5484152bb12c3ed757f",
+      "publishedAt": "2025-03-18T14:09:53Z",
+      "prerelease": true,
+      "upstreamUrl": "https://github.com/Meloong-Git/PCL/releases/tag/2.9.2",
+      "packages": [],
+      "binaryAvailable": false,
+      "excludedPackages": []
+    },
+    {
+      "tag": "2.9.1",
+      "name": "2.9.1",
+      "commit": "503244a0de28094414fe7cd4e13938a1ebd4202d",
+      "publishedAt": "2025-02-21T17:22:39Z",
+      "prerelease": false,
+      "upstreamUrl": "https://github.com/Meloong-Git/PCL/releases/tag/2.9.1",
+      "packages": [
+        "PCL-upstream-503244a0de28.zip"
+      ],
+      "binaryAvailable": true,
+      "excludedPackages": []
+    },
+    {
+      "tag": "2.8.13",
+      "name": "2.8.13",
+      "commit": "70636a9a7757a79977e1f2e7e38760af52f232ac",
+      "publishedAt": "2025-01-24T19:28:09Z",
+      "prerelease": false,
+      "upstreamUrl": "https://github.com/Meloong-Git/PCL/releases/tag/2.8.13",
+      "packages": [
+        "PCL-upstream-c5197e2f2db6.zip"
+      ],
+      "binaryAvailable": true,
+      "excludedPackages": []
+    },
+    {
+      "tag": "2.8.12",
+      "name": "2.8.12",
+      "commit": "a8bb82b033917c8a1b0a332a3d2ac3149d317a4d",
+      "publishedAt": "2024-12-13T10:23:39Z",
+      "prerelease": false,
+      "upstreamUrl": "https://github.com/Meloong-Git/PCL/releases/tag/2.8.12",
+      "packages": [
+        "PCL-upstream-a8bb82b03391.zip"
+      ],
+      "binaryAvailable": true,
+      "excludedPackages": []
+    },
+    {
+      "tag": "2.8.11",
+      "name": "2.8.11",
+      "commit": "68f8b3eeac33c78b1e7ad248a876bc41b761613a",
+      "publishedAt": "2024-12-08T12:47:00Z",
+      "prerelease": false,
+      "upstreamUrl": "https://github.com/Meloong-Git/PCL/releases/tag/2.8.11",
+      "packages": [],
+      "binaryAvailable": false,
+      "excludedPackages": []
+    },
+    {
+      "tag": "2.8.10",
+      "name": "2.8.10",
+      "commit": "2a46c9f5cef710e7e5790b2ac9b41e70b98ea343",
+      "publishedAt": "2024-11-07T17:01:03Z",
+      "prerelease": true,
+      "upstreamUrl": "https://github.com/Meloong-Git/PCL/releases/tag/2.8.10",
+      "packages": [],
+      "binaryAvailable": false,
+      "excludedPackages": []
+    },
+    {
+      "tag": "2.8.9",
+      "name": "2.8.9",
+      "commit": "3f8e64450a023f5f9f97bb5386fb30d91cc762ad",
+      "publishedAt": "2024-10-15T19:45:23Z",
+      "prerelease": false,
+      "upstreamUrl": "https://github.com/Meloong-Git/PCL/releases/tag/2.8.9",
+      "packages": [
+        "PCL-upstream-c2d20e422b67.zip"
+      ],
+      "binaryAvailable": true,
+      "excludedPackages": []
+    },
+    {
+      "tag": "2.8.8",
+      "name": "2.8.8",
+      "commit": "76bf3c40d04653c05be83871aefeefc8aa52d172",
+      "publishedAt": "2024-09-30T19:48:37Z",
+      "prerelease": false,
+      "upstreamUrl": "https://github.com/Meloong-Git/PCL/releases/tag/2.8.8",
+      "packages": [
+        "PCL-upstream-76bf3c40d046.zip"
+      ],
+      "binaryAvailable": true,
+      "excludedPackages": []
+    },
+    {
+      "tag": "2.8.7",
+      "name": "2.8.7",
+      "commit": "b5c9736918af194ddd8009559c645bce15bc3c6b",
+      "publishedAt": "2024-09-24T09:42:51Z",
+      "prerelease": true,
+      "upstreamUrl": "https://github.com/Meloong-Git/PCL/releases/tag/2.8.7",
+      "packages": [
+        "PCL-upstream-fad37c9b4687.zip"
+      ],
+      "binaryAvailable": true,
+      "excludedPackages": []
+    },
+    {
+      "tag": "2.8.6",
+      "name": "2.8.6",
+      "commit": "4f69e9e2d22dc1731a1d1cb7d75ac04129b02038",
+      "publishedAt": "2024-09-05T10:12:11Z",
+      "prerelease": false,
+      "upstreamUrl": "https://github.com/Meloong-Git/PCL/releases/tag/2.8.6",
+      "packages": [
+        "PCL-upstream-4f69e9e2d22d.zip"
+      ],
+      "binaryAvailable": true,
+      "excludedPackages": []
+    },
+    {
+      "tag": "2.8.5",
+      "name": "2.8.5",
+      "commit": "007b51b31464dce63b03869edde4a7403782db57",
+      "publishedAt": "2024-08-30T18:49:49Z",
+      "prerelease": true,
+      "upstreamUrl": "https://github.com/Meloong-Git/PCL/releases/tag/2.8.5",
+      "packages": [],
+      "binaryAvailable": false,
+      "excludedPackages": []
+    },
+    {
+      "tag": "2.8.4",
+      "name": "2.8.4",
+      "commit": "62394e0052858251d6e289ddb565b532c0f10b3e",
+      "publishedAt": "2024-08-17T15:22:55Z",
+      "prerelease": true,
+      "upstreamUrl": "https://github.com/Meloong-Git/PCL/releases/tag/2.8.4",
+      "packages": [],
+      "binaryAvailable": false,
+      "excludedPackages": []
+    },
+    {
+      "tag": "2.8.3",
+      "name": "2.8.3",
+      "commit": "5bd8ac3870170b0acd4d81934227829f8e79ca84",
+      "publishedAt": "2024-07-13T06:59:25Z",
+      "prerelease": false,
+      "upstreamUrl": "https://github.com/Meloong-Git/PCL/releases/tag/2.8.3",
+      "packages": [
+        "PCL-upstream-5bd8ac387017.zip"
+      ],
+      "binaryAvailable": true,
+      "excludedPackages": []
+    },
+    {
+      "tag": "2.8.2",
+      "name": "2.8.2",
+      "commit": "5436c5ec8aeb3de1192cd5a53a53ff8d6f85da16",
+      "publishedAt": "2024-07-11T17:20:51Z",
+      "prerelease": false,
+      "upstreamUrl": "https://github.com/Meloong-Git/PCL/releases/tag/2.8.2",
+      "packages": [
+        "PCL-upstream-a3c419e76d7f.zip"
+      ],
+      "binaryAvailable": true,
+      "excludedPackages": []
+    },
+    {
+      "tag": "2.8.1",
+      "name": "2.8.1",
+      "commit": "fce1f90b554aeb5eb701f8c615f3bde41ef1636a",
+      "publishedAt": "2024-07-06T18:43:37Z",
+      "prerelease": true,
+      "upstreamUrl": "https://github.com/Meloong-Git/PCL/releases/tag/2.8.1",
+      "packages": [],
+      "binaryAvailable": false,
+      "excludedPackages": []
+    },
+    {
+      "tag": "2.8.0",
+      "name": "2.8.0",
+      "commit": "f264f82b4bc804c3939d26c93647b9d20904da5d",
+      "publishedAt": "2024-07-06T09:51:45Z",
+      "prerelease": true,
+      "upstreamUrl": "https://github.com/Meloong-Git/PCL/releases/tag/2.8.0",
+      "packages": [],
+      "binaryAvailable": false,
+      "excludedPackages": []
+    },
+    {
+      "tag": "2.7.4",
+      "name": "2.7.4",
+      "commit": "e1268cefdb07852408b908c795a42c61684403f5",
+      "publishedAt": "2024-05-25T09:55:31Z",
+      "prerelease": false,
+      "upstreamUrl": "https://github.com/Meloong-Git/PCL/releases/tag/2.7.4",
+      "packages": [
+        "PCL-upstream-deca6b630284.zip"
+      ],
+      "binaryAvailable": true,
+      "excludedPackages": []
+    },
+    {
+      "tag": "2.7.3",
+      "name": "2.7.3",
+      "commit": "67d830ea296b3a281f65bc9c66925644e32153ab",
+      "publishedAt": "2024-05-17T08:57:00Z",
+      "prerelease": false,
+      "upstreamUrl": "https://github.com/Meloong-Git/PCL/releases/tag/2.7.3",
+      "packages": [
+        "PCL-upstream-df81f71f9b74.zip"
+      ],
+      "binaryAvailable": true,
+      "excludedPackages": []
+    },
+    {
+      "tag": "2.7.2",
+      "name": "2.7.2",
+      "commit": "a84601d99cb3004e7404ddfe3e854192a74a1ef7",
+      "publishedAt": "2024-05-13T10:19:04Z",
+      "prerelease": true,
+      "upstreamUrl": "https://github.com/Meloong-Git/PCL/releases/tag/2.7.2",
+      "packages": [],
+      "binaryAvailable": false,
+      "excludedPackages": []
+    },
+    {
+      "tag": "2.7.1",
+      "name": "2.7.1",
+      "commit": "43b0acba08a2c5dc062cb7e0f79d1375d7c5a326",
+      "publishedAt": "2024-04-07T17:57:42Z",
+      "prerelease": false,
+      "upstreamUrl": "https://github.com/Meloong-Git/PCL/releases/tag/2.7.1",
+      "packages": [
+        "PCL-upstream-c47b80df362b.zip"
+      ],
+      "binaryAvailable": true,
+      "excludedPackages": []
+    },
+    {
+      "tag": "2.7.0",
+      "name": "2.7.0",
+      "commit": "0dab617b64dc3fc58535cea1fc47a2833238f039",
+      "publishedAt": "2024-04-03T19:48:53Z",
+      "prerelease": false,
+      "upstreamUrl": "https://github.com/Meloong-Git/PCL/releases/tag/2.7.0",
+      "packages": [
+        "PCL-upstream-43b0acba08a2.zip",
+        "PCL-upstream-424106001004.zip"
+      ],
+      "binaryAvailable": true,
+      "excludedPackages": []
+    },
+    {
+      "tag": "2.6.15",
+      "name": "2.6.15",
+      "commit": "f78250020ef8c278d77c4b17cb643eccfd6aa771",
+      "publishedAt": "2024-03-02T09:55:10Z",
+      "prerelease": false,
+      "upstreamUrl": "https://github.com/Meloong-Git/PCL/releases/tag/2.6.15",
+      "packages": [],
+      "binaryAvailable": false,
+      "excludedPackages": [
+        {
+          "commit": "5843649cfa7fc2d7727fa43c7a43f8370f5aaa98",
+          "commitMessage": "2.6.15 正式版",
+          "gitBlob": "c5703bf89575b17a6a6b6983ccb9c4f99a64f273",
+          "excluded": true,
+          "reason": "Windows security blocked access; owner requested source and upstream link only.",
+          "sourceUrl": "https://github.com/Meloong-Git/PCL/blob/5843649cfa7fc2d7727fa43c7a43f8370f5aaa98/%E6%9C%80%E6%96%B0%E6%AD%A3%E5%BC%8F%E7%89%88.zip"
+        }
+      ]
+    },
+    {
+      "tag": "2.6.14",
+      "name": "2.6.14",
+      "commit": "83ebc61d8a1f1773c983c70b5fc7ea0bce2e123a",
+      "publishedAt": "2024-02-21T16:09:28Z",
+      "prerelease": false,
+      "upstreamUrl": "https://github.com/Meloong-Git/PCL/releases/tag/2.6.14",
+      "packages": [
+        "PCL-upstream-ec6784d57d50.zip"
+      ],
+      "binaryAvailable": true,
+      "excludedPackages": []
+    },
+    {
+      "tag": "2.6.13",
+      "name": "2.6.13",
+      "commit": "8c8b1066bff6476a14437a14bc16a281e25145bd",
+      "publishedAt": "2024-01-06T14:50:24Z",
+      "prerelease": false,
+      "upstreamUrl": "https://github.com/Meloong-Git/PCL/releases/tag/2.6.13",
+      "packages": [
+        "PCL-upstream-8c8b1066bff6.zip"
+      ],
+      "binaryAvailable": true,
+      "excludedPackages": []
+    },
+    {
+      "tag": "2.6.12",
+      "name": "2.6.12",
+      "commit": "6705444fb44377e4d36f6025015912e3a8d7bbb7",
+      "publishedAt": "2023-12-20T10:17:29Z",
+      "prerelease": false,
+      "upstreamUrl": "https://github.com/Meloong-Git/PCL/releases/tag/2.6.12",
+      "packages": [
+        "PCL-upstream-fa054d9a9e3b.zip"
+      ],
+      "binaryAvailable": true,
+      "excludedPackages": []
+    },
+    {
+      "tag": "2.6.11",
+      "name": "2.6.11",
+      "commit": "c98e0367d055686ae56348ce3b0a58567fe4cd75",
+      "publishedAt": "2023-11-28T10:03:36Z",
+      "prerelease": true,
+      "upstreamUrl": "https://github.com/Meloong-Git/PCL/releases/tag/2.6.11",
+      "packages": [],
+      "binaryAvailable": false,
+      "excludedPackages": []
+    },
+    {
+      "tag": "2.6.10",
+      "name": "2.6.10",
+      "commit": "f0c634db7802719631083a486b23118cc0fd22cf",
+      "publishedAt": "2023-10-25T08:33:58Z",
+      "prerelease": false,
+      "upstreamUrl": "https://github.com/Meloong-Git/PCL/releases/tag/2.6.10",
+      "packages": [
+        "PCL-upstream-8308577549f4.zip"
+      ],
+      "binaryAvailable": true,
+      "excludedPackages": [
+        {
+          "commit": "c98e0367d055686ae56348ce3b0a58567fe4cd75",
+          "commitMessage": "2.6.10 正式版重新签名",
+          "gitBlob": "bbc431a2b08eede8a783fbe3a03bcebf422c0ecd",
+          "excluded": true,
+          "reason": "Windows security blocked access; following owner-approved source-and-upstream-link-only handling.",
+          "sourceUrl": "https://github.com/Meloong-Git/PCL/blob/c98e0367d055686ae56348ce3b0a58567fe4cd75/%E6%9C%80%E6%96%B0%E6%AD%A3%E5%BC%8F%E7%89%88.zip"
+        }
+      ]
+    },
+    {
+      "tag": "2.6.9",
+      "name": "2.6.9",
+      "commit": "037e6b19b46eea98b88664474c0963d44b99caa2",
+      "publishedAt": "2023-10-08T09:48:49Z",
+      "prerelease": false,
+      "upstreamUrl": "https://github.com/Meloong-Git/PCL/releases/tag/2.6.9",
+      "packages": [],
+      "binaryAvailable": false,
+      "excludedPackages": []
+    },
+    {
+      "tag": "2.6.8",
+      "name": "2.6.8",
+      "commit": "3b8de89309dfc1e3306dd70746d599f431b5768a",
+      "publishedAt": "2023-09-13T12:46:49Z",
+      "prerelease": true,
+      "upstreamUrl": "https://github.com/Meloong-Git/PCL/releases/tag/2.6.8",
+      "packages": [],
+      "binaryAvailable": false,
+      "excludedPackages": []
+    },
+    {
+      "tag": "2.6.7",
+      "name": "2.6.7",
+      "commit": "d774de543600e185373ae69444ae71de9374d23e",
+      "publishedAt": "2023-08-22T14:40:50Z",
+      "prerelease": false,
+      "upstreamUrl": "https://github.com/Meloong-Git/PCL/releases/tag/2.6.7",
+      "packages": [
+        "PCL-upstream-b717bb31c877.zip"
+      ],
+      "binaryAvailable": true,
+      "excludedPackages": []
+    },
+    {
+      "tag": "2.6.6",
+      "name": "2.6.6",
+      "commit": "e4ae1a057a449b0a5c440fd868d9f8db6c07364b",
+      "publishedAt": "2023-08-21T06:30:59Z",
+      "prerelease": false,
+      "upstreamUrl": "https://github.com/Meloong-Git/PCL/releases/tag/2.6.6",
+      "packages": [
+        "PCL-upstream-e4ae1a057a44.zip"
+      ],
+      "binaryAvailable": true,
+      "excludedPackages": []
+    },
+    {
+      "tag": "2.6.5",
+      "name": "2.6.5",
+      "commit": "79778490d5936123463d9a9e7e858c4c20f34106",
+      "publishedAt": "2023-08-17T12:13:07Z",
+      "prerelease": true,
+      "upstreamUrl": "https://github.com/Meloong-Git/PCL/releases/tag/2.6.5",
+      "packages": [],
+      "binaryAvailable": false,
+      "excludedPackages": []
+    },
+    {
+      "tag": "2.6.4",
+      "name": "2.6.4",
+      "commit": "e6c69750475593f6311c83bb33f0580c072667fa",
+      "publishedAt": "2023-07-20T09:27:24Z",
+      "prerelease": true,
+      "upstreamUrl": "https://github.com/Meloong-Git/PCL/releases/tag/2.6.4",
+      "packages": [],
+      "binaryAvailable": false,
+      "excludedPackages": []
+    },
+    {
+      "tag": "2.6.3",
+      "name": "2.6.3",
+      "commit": "07e824b0a16021bbdc469a3853f15eb7d8bd62c6",
+      "publishedAt": "2023-06-24T08:31:25Z",
+      "prerelease": false,
+      "upstreamUrl": "https://github.com/Meloong-Git/PCL/releases/tag/2.6.3",
+      "packages": [
+        "PCL-upstream-2c2bd2d48934.zip"
+      ],
+      "binaryAvailable": true,
+      "excludedPackages": []
+    },
+    {
+      "tag": "2.6.2",
+      "name": "2.6.2",
+      "commit": "ce164dd6fd1a00300874223871f954115f84d870",
+      "publishedAt": "2023-05-28T12:20:05Z",
+      "prerelease": true,
+      "upstreamUrl": "https://github.com/Meloong-Git/PCL/releases/tag/2.6.2",
+      "packages": [],
+      "binaryAvailable": false,
+      "excludedPackages": []
+    },
+    {
+      "tag": "2.6.1",
+      "name": "2.6.1",
+      "commit": "c1a26a119fadbb5b7d1443e9be46ac0cdff26e84",
+      "publishedAt": "2023-05-25T16:41:26Z",
+      "prerelease": false,
+      "upstreamUrl": "https://github.com/Meloong-Git/PCL/releases/tag/2.6.1",
+      "packages": [
+        "PCL-upstream-c1a26a119fad.zip"
+      ],
+      "binaryAvailable": true,
+      "excludedPackages": []
+    },
+    {
+      "tag": "2.6.0",
+      "name": "2.6.0",
+      "commit": "cf74de57893800980961708ab7216547efe81403",
+      "publishedAt": "2023-05-10T18:04:29Z",
+      "prerelease": false,
+      "upstreamUrl": "https://github.com/Meloong-Git/PCL/releases/tag/2.6.0",
+      "packages": [
+        "PCL-upstream-10cc561ac619.zip",
+        "PCL-upstream-d01372495be1.zip"
+      ],
+      "binaryAvailable": true,
+      "excludedPackages": []
+    },
+    {
+      "tag": "2.5.4",
+      "name": "2.5.4",
+      "commit": "fd7049ceedc0bfb554fe2b8285c992be3457a946",
+      "publishedAt": "2023-04-25T20:30:01Z",
+      "prerelease": true,
+      "upstreamUrl": "https://github.com/Meloong-Git/PCL/releases/tag/2.5.4",
+      "packages": [],
+      "binaryAvailable": false,
+      "excludedPackages": []
+    },
+    {
+      "tag": "2.5.3",
+      "name": "2.5.3",
+      "commit": "78d8a778c78da3bcfb0b60b5e8342a383c3c6969",
+      "publishedAt": "2023-04-08T18:51:24Z",
+      "prerelease": true,
+      "upstreamUrl": "https://github.com/Meloong-Git/PCL/releases/tag/2.5.3",
+      "packages": [],
+      "binaryAvailable": false,
+      "excludedPackages": []
+    },
+    {
+      "tag": "2.5.2",
+      "name": "2.5.2",
+      "commit": "7cf61bc7cd7a4595d1498948f7d49d16c4863447",
+      "publishedAt": "2023-03-23T16:43:17Z",
+      "prerelease": false,
+      "upstreamUrl": "https://github.com/Meloong-Git/PCL/releases/tag/2.5.2",
+      "packages": [
+        "PCL-upstream-b5adc1175c13.zip"
+      ],
+      "binaryAvailable": true,
+      "excludedPackages": []
+    },
+    {
+      "tag": "2.5.1",
+      "name": "2.5.1",
+      "commit": "d886acdeac6ec0bc326817bda4b0633343aaf6fd",
+      "publishedAt": "2023-03-08T15:47:16Z",
+      "prerelease": true,
+      "upstreamUrl": "https://github.com/Meloong-Git/PCL/releases/tag/2.5.1",
+      "packages": [],
+      "binaryAvailable": false,
+      "excludedPackages": []
+    },
+    {
+      "tag": "2.5.0",
+      "name": "2.5.0",
+      "commit": "36c10ade8c4101f51989fdde6332a9778065ca8d",
+      "publishedAt": "2023-02-16T14:22:25Z",
+      "prerelease": true,
+      "upstreamUrl": "https://github.com/Meloong-Git/PCL/releases/tag/2.5.0",
+      "packages": [],
+      "binaryAvailable": false,
+      "excludedPackages": []
+    },
+    {
+      "tag": "2.4.9",
+      "name": "2.4.9",
+      "commit": "d540b94448d40a1fc08b7c8b3b0872836e5d2c18",
+      "publishedAt": "2023-02-06T14:57:19Z",
+      "prerelease": false,
+      "upstreamUrl": "https://github.com/Meloong-Git/PCL/releases/tag/2.4.9",
+      "packages": [
+        "PCL-upstream-a9bf0b682a02.zip"
+      ],
+      "binaryAvailable": true,
+      "excludedPackages": []
+    },
+    {
+      "tag": "2.4.8",
+      "name": "2.4.8",
+      "commit": "b06328645c89a2c287819e5aaaa2b0eea7084e13",
+      "publishedAt": "2023-02-06T07:32:44Z",
+      "prerelease": false,
+      "upstreamUrl": "https://github.com/Meloong-Git/PCL/releases/tag/2.4.8",
+      "packages": [
+        "PCL-upstream-64539ad55c83.zip"
+      ],
+      "binaryAvailable": true,
+      "excludedPackages": []
+    },
+    {
+      "tag": "2.4.7",
+      "name": "2.4.7",
+      "commit": "c2b282c8dbbd50ffd4a132649839e075b726d8a4",
+      "publishedAt": "2023-01-26T17:12:21Z",
+      "prerelease": false,
+      "upstreamUrl": "https://github.com/Meloong-Git/PCL/releases/tag/2.4.7",
+      "packages": [
+        "PCL-upstream-eb9e7864c973.zip"
+      ],
+      "binaryAvailable": true,
+      "excludedPackages": []
+    },
+    {
+      "tag": "2.4.6",
+      "name": "2.4.6",
+      "commit": "48214557dad3f1e0a651a103d437b3f59fde0730",
+      "publishedAt": "2023-01-25T17:52:49Z",
+      "prerelease": false,
+      "upstreamUrl": "https://github.com/Meloong-Git/PCL/releases/tag/2.4.6",
+      "packages": [],
+      "binaryAvailable": false,
+      "excludedPackages": []
+    },
+    {
+      "tag": "2.4.5",
+      "name": "2.4.5",
+      "commit": "45a9bf109632f9231914f21cc851434f1fca7440",
+      "publishedAt": "2023-01-08T12:39:06Z",
+      "prerelease": false,
+      "upstreamUrl": "https://github.com/Meloong-Git/PCL/releases/tag/2.4.5",
+      "packages": [],
+      "binaryAvailable": false,
+      "excludedPackages": []
+    },
+    {
+      "tag": "2.4.4",
+      "name": "2.4.4",
+      "commit": "fd329037e79ec3d1ff584854e32d237c2e95ca36",
+      "publishedAt": "2022-12-11T18:35:52Z",
+      "prerelease": false,
+      "upstreamUrl": "https://github.com/Meloong-Git/PCL/releases/tag/2.4.4",
+      "packages": [
+        "PCL-upstream-bef94fa7438d.zip"
+      ],
+      "binaryAvailable": true,
+      "excludedPackages": []
+    },
+    {
+      "tag": "2.4.3",
+      "name": "2.4.3",
+      "commit": "5fb5a3b96333d2c180b0613faf931309ca70d7a2",
+      "publishedAt": "2022-11-26T14:40:55Z",
+      "prerelease": false,
+      "upstreamUrl": "https://github.com/Meloong-Git/PCL/releases/tag/2.4.3",
+      "packages": [],
+      "binaryAvailable": false,
+      "excludedPackages": []
+    },
+    {
+      "tag": "2.4.2",
+      "name": "2.4.2",
+      "commit": "97c536710887071d786510d555b04c396fa55a2b",
+      "publishedAt": "2022-11-08T11:51:27Z",
+      "prerelease": false,
+      "upstreamUrl": "https://github.com/Meloong-Git/PCL/releases/tag/2.4.2",
+      "packages": [],
+      "binaryAvailable": false,
+      "excludedPackages": []
+    },
+    {
+      "tag": "2.4.1",
+      "name": "2.4.1",
+      "commit": "ef3217959853d378af825220d222601774c2d6cb",
+      "publishedAt": "2022-11-03T14:32:17Z",
+      "prerelease": true,
+      "upstreamUrl": "https://github.com/Meloong-Git/PCL/releases/tag/2.4.1",
+      "packages": [],
+      "binaryAvailable": false,
+      "excludedPackages": []
+    },
+    {
+      "tag": "2.4.0",
+      "name": "2.4.0",
+      "commit": "1368a902c8b4fe7e64f73ca6647f4fe7e103c2e5",
+      "publishedAt": "2022-10-16T14:00:54Z",
+      "prerelease": true,
+      "upstreamUrl": "https://github.com/Meloong-Git/PCL/releases/tag/2.4.0",
+      "packages": [],
+      "binaryAvailable": false,
+      "excludedPackages": []
+    },
+    {
+      "tag": "2.3.5",
+      "name": "2.3.5",
+      "commit": "c400836de84a69df299d9ea96dd187000bc2a665",
+      "publishedAt": "2022-09-29T09:53:02Z",
+      "prerelease": false,
+      "upstreamUrl": "https://github.com/Meloong-Git/PCL/releases/tag/2.3.5",
+      "packages": [],
+      "binaryAvailable": false,
+      "excludedPackages": []
+    },
+    {
+      "tag": "2.3.4",
+      "name": "2.3.4",
+      "commit": "47a2fe2315e6716e17444ca338642fb1c08cee90",
+      "publishedAt": "2022-09-25T12:57:55Z",
+      "prerelease": true,
+      "upstreamUrl": "https://github.com/Meloong-Git/PCL/releases/tag/2.3.4",
+      "packages": [],
+      "binaryAvailable": false,
+      "excludedPackages": []
+    }
+  ],
+  "packages": [
+    {
+      "version": "2.99.0.0",
+      "versionSource": "Win32 file version",
+      "commit": "6b9a50df911c9d68b69b24c979efba477fb14b67",
+      "commitDate": "2026-10-20",
+      "commitMessage": "2.99.0.0 正式版",
+      "gitBlob": "52843e0ba1c97a888630be8326fbc5a132157ccc",
+      "file": "PCL-upstream-6b9a50df911c.zip",
+      "size": 2664629,
+      "sha256": "01877f06df84cbab376c286a633e76ef7fca0bb469e26df97f3b09b5abd503bc",
+      "executable": "Plain Craft Launcher 2.exe",
+      "executableSha256": "6b6e1260cb5a1d6a303855f1c60cab3d0bc1aebba7e40a964180188b271e7386",
+      "sourceUrl": "https://github.com/Meloong-Git/PCL/blob/6b9a50df911c9d68b69b24c979efba477fb14b67/%E6%9C%80%E6%96%B0%E6%AD%A3%E5%BC%8F%E7%89%88.zip"
+    },
+    {
+      "version": "2.14.0.0",
+      "versionSource": "Win32 file version",
+      "commit": "5ef81e490ae46b1100d61e33d0183094c7a80ca8",
+      "commitDate": "2026-10-19",
+      "commitMessage": "2.14.0.0 正式版",
+      "gitBlob": "f53bfc99deb7f5ef4590fe0c8cea0fb4bfc1a3b5",
+      "file": "PCL-upstream-5ef81e490ae4.zip",
+      "size": 2667485,
+      "sha256": "0835d346cd0f95c1472a3c0655d66e6ca8b7e4494ca0083768e3316f2cd4e7b1",
+      "executable": "Plain Craft Launcher 2.exe",
+      "executableSha256": "5582952ded3b443503f66c23b810802bd20f1a3e847b54d9e09653a825859a36",
+      "sourceUrl": "https://github.com/Meloong-Git/PCL/blob/5ef81e490ae46b1100d61e33d0183094c7a80ca8/%E6%9C%80%E6%96%B0%E6%AD%A3%E5%BC%8F%E7%89%88.zip"
+    },
+    {
+      "version": "2.13.1.1",
+      "versionSource": "Win32 file version",
+      "commit": "904de2af71533a195a41a9802d2c9b05c8bb23ac",
+      "commitDate": "2026-08-07",
+      "commitMessage": "2.13.1.1 正式版",
+      "gitBlob": "ece8652cc3c30a819db82e3c11ad0bf0a0264bfc",
+      "file": "PCL-upstream-904de2af7153.zip",
+      "size": 2572363,
+      "sha256": "5321f0754137fbdd2c5c1420db868b8e516bcd5d4ed94729d00813f1597c4b46",
+      "executable": "Plain Craft Launcher 2.exe",
+      "executableSha256": "30eb93c62fc51ede0898648e67455478a3d5a4f279938ae65aec77b84cb9703f",
+      "sourceUrl": "https://github.com/Meloong-Git/PCL/blob/904de2af71533a195a41a9802d2c9b05c8bb23ac/%E6%9C%80%E6%96%B0%E6%AD%A3%E5%BC%8F%E7%89%88.zip"
+    },
+    {
+      "version": "2.13.0.1",
+      "versionSource": "Win32 file version",
+      "commit": "cf7f8cbe19656fbc810b938c81a9c2980a85b2a5",
+      "commitDate": "2026-07-06",
+      "commitMessage": "2.13.0.1 正式版",
+      "gitBlob": "ea0614454b34321d5eba8658b554cea766c8b709",
+      "file": "PCL-upstream-cf7f8cbe1965.zip",
+      "size": 2520922,
+      "sha256": "90146725da3b98445f9d4bbcd0e9a1ad5ed204727b9cc768f0e4ce24c8f3f989",
+      "executable": "Plain Craft Launcher 2.exe",
+      "executableSha256": "0ab0b28a93cc4d0754a9fa488b5939b5e092f0e5fb3f1e6550cc92a5d3f6577f",
+      "sourceUrl": "https://github.com/Meloong-Git/PCL/blob/cf7f8cbe19656fbc810b938c81a9c2980a85b2a5/%E6%9C%80%E6%96%B0%E6%AD%A3%E5%BC%8F%E7%89%88.zip"
+    },
+    {
+      "version": "2.12.8.2",
+      "versionSource": "Win32 file version",
+      "commit": "105e798744db835613b223522cea0d87c8df6202",
+      "commitDate": "2026-05-24",
+      "commitMessage": "2.12.8.2 正式版",
+      "gitBlob": "8f08503b2c41c8a4a8ec5139844f08b732860278",
+      "file": "PCL-upstream-105e798744db.zip",
+      "size": 2471023,
+      "sha256": "a37d0d526c98917c65c60956fc464b5e5b6396df8ceb602ea9ca7f41775bb188",
+      "executable": "Plain Craft Launcher 2.exe",
+      "executableSha256": "ff36c5d67cf5cd97322e7639cb54533410303c0dceba17f7b21feb1d5475f8fc",
+      "sourceUrl": "https://github.com/Meloong-Git/PCL/blob/105e798744db835613b223522cea0d87c8df6202/%E6%9C%80%E6%96%B0%E6%AD%A3%E5%BC%8F%E7%89%88.zip"
+    },
+    {
+      "version": "2.12.8.1",
+      "versionSource": "Win32 file version",
+      "commit": "4d51dda61ec14c7828c7174b22db019c8a6eb12e",
+      "commitDate": "2026-05-22",
+      "commitMessage": "2.12.8.1 正式版",
+      "gitBlob": "e6e8b066b1e9c1101cafe7b489440d0896966c1f",
+      "file": "PCL-upstream-4d51dda61ec1.zip",
+      "size": 2470062,
+      "sha256": "d74d6b10f8ec53ac3317c90cea13bee8ca94d76ea5599f18c0a56506bb447be2",
+      "executable": "Plain Craft Launcher 2.exe",
+      "executableSha256": "79a10baf61e9a1cd3134ab4e8a564f7d7eb403196b9c337b08caf7284cdd49ef",
+      "sourceUrl": "https://github.com/Meloong-Git/PCL/blob/4d51dda61ec14c7828c7174b22db019c8a6eb12e/%E6%9C%80%E6%96%B0%E6%AD%A3%E5%BC%8F%E7%89%88.zip"
+    },
+    {
+      "version": "2.12.7.3",
+      "versionSource": "Win32 file version",
+      "commit": "20846ed523f21a4f35f47fddbb2d7ef9a86204a5",
+      "commitDate": "2026-05-05",
+      "commitMessage": "2.12.7.3 正式版",
+      "gitBlob": "8f68ae57a6fe0365dd63c04b76829fa6d903297d",
+      "file": "PCL-upstream-20846ed523f2.zip",
+      "size": 2470827,
+      "sha256": "9e4fa6fc5d4901987bbd89a9f46b8a65553b6f1cb1c11e566ddda7a41cf7d7d4",
+      "executable": "Plain Craft Launcher 2.exe",
+      "executableSha256": "fb3aef2e472c81be070015845f469a7b395853f1baf18ba47e958f34cea65847",
+      "sourceUrl": "https://github.com/Meloong-Git/PCL/blob/20846ed523f21a4f35f47fddbb2d7ef9a86204a5/%E6%9C%80%E6%96%B0%E6%AD%A3%E5%BC%8F%E7%89%88.zip"
+    },
+    {
+      "version": "2.12.6.2",
+      "versionSource": "Win32 file version",
+      "commit": "f578dbd78486fcacf7c2835325daa44afbd408f3",
+      "commitDate": "2026-04-03",
+      "commitMessage": "2.12.6.2 正式版",
+      "gitBlob": "ef5c0951fa0ba983e817c42c31ad711ff9c3b36e",
+      "file": "PCL-upstream-f578dbd78486.zip",
+      "size": 2451948,
+      "sha256": "50939181325887ce3f7a2c952c9a6474759d739b6c6e07d172da804c0932e44d",
+      "executable": "Plain Craft Launcher 2.exe",
+      "executableSha256": "df93e44a539799079e5ef57ffaca472bdac3ac8f5c62fbfbdce43b85a14b7de6",
+      "sourceUrl": "https://github.com/Meloong-Git/PCL/blob/f578dbd78486fcacf7c2835325daa44afbd408f3/%E6%9C%80%E6%96%B0%E6%AD%A3%E5%BC%8F%E7%89%88.zip"
+    },
+    {
+      "version": "2.12.6.1",
+      "versionSource": "Win32 file version",
+      "commit": "2a010432615afd11fb2919cc36eeadd30f4127c6",
+      "commitDate": "2026-04-02",
+      "commitMessage": "2.12.6.1 正式版",
+      "gitBlob": "8ebc444b90fe0ff0ec2855f9c264567e4c6d7ba5",
+      "file": "PCL-upstream-2a010432615a.zip",
+      "size": 2452308,
+      "sha256": "34727385020f6d203cb18b88280d899f04a12d0d50d728b5c78d42143b4fd9d0",
+      "executable": "Plain Craft Launcher 2.exe",
+      "executableSha256": "abf215371ad639d11446cf8dbef51b7924a052340f73e0538f94e1a76a9039df",
+      "sourceUrl": "https://github.com/Meloong-Git/PCL/blob/2a010432615afd11fb2919cc36eeadd30f4127c6/%E6%9C%80%E6%96%B0%E6%AD%A3%E5%BC%8F%E7%89%88.zip"
+    },
+    {
+      "version": "2.12.6.0",
+      "versionSource": "Win32 file version",
+      "commit": "c850596cab43c18354582caf52d3c813c42d0fcb",
+      "commitDate": "2026-03-30",
+      "commitMessage": "2.12.6 正式版",
+      "gitBlob": "285df86dc4cde1a7d9f36a3d4d7231cab5740206",
+      "file": "PCL-upstream-c850596cab43.zip",
+      "size": 2843891,
+      "sha256": "cf8d054427d981865e7dda0beec3da840f6f51cdf7e8886f378a10a7cba9688f",
+      "executable": "Plain Craft Launcher 2.exe",
+      "executableSha256": "0d89ba577e6caf8fd2e73b4189109129d118a8687ca89f63032a23734f79e065",
+      "sourceUrl": "https://github.com/Meloong-Git/PCL/blob/c850596cab43c18354582caf52d3c813c42d0fcb/%E6%9C%80%E6%96%B0%E6%AD%A3%E5%BC%8F%E7%89%88.zip"
+    },
+    {
+      "version": "2.12.3.0",
+      "versionSource": "Win32 file version",
+      "commit": "df1bab0ebe0e14398ef73686098170111a9d1ceb",
+      "commitDate": "2026-03-08",
+      "commitMessage": "2.12.3 正式版",
+      "gitBlob": "d3716dfc3fb68adeaf2b7349e698bd31dda56dd9",
+      "file": "PCL-upstream-df1bab0ebe0e.zip",
+      "size": 2676004,
+      "sha256": "684de732b654f416252b4a8839277ced8a8c1add5a9cecd22c2bf57da7ee7d60",
+      "executable": "Plain Craft Launcher 2.exe",
+      "executableSha256": "f4e7597fabb41c62d48848c2bfadff817afe68cb0dbdd3f00b67e778cfa04f15",
+      "sourceUrl": "https://github.com/Meloong-Git/PCL/blob/df1bab0ebe0e14398ef73686098170111a9d1ceb/%E6%9C%80%E6%96%B0%E6%AD%A3%E5%BC%8F%E7%89%88.zip"
+    },
+    {
+      "version": "2.12.2.0",
+      "versionSource": "Win32 file version",
+      "commit": "73bdc533097cfd36867b9249416cd681ec0b5a28",
+      "commitDate": "2026-01-15",
+      "commitMessage": "2.12.2 正式版",
+      "gitBlob": "88010a40b2fe6595d3287780c3c5420f881452ad",
+      "file": "PCL-upstream-73bdc533097c.zip",
+      "size": 2638873,
+      "sha256": "2bbb47a4c3d2a37b78731ec72f038c4bc7ce4e62fdb3f1302a6de593616bcd47",
+      "executable": "Plain Craft Launcher 2.exe",
+      "executableSha256": "6c3aee9f1ca9b58af20cf1324627d345e81036df6c29001c12064487ef6b9ccf",
+      "sourceUrl": "https://github.com/Meloong-Git/PCL/blob/73bdc533097cfd36867b9249416cd681ec0b5a28/%E6%9C%80%E6%96%B0%E6%AD%A3%E5%BC%8F%E7%89%88.zip"
+    },
+    {
+      "version": "2.12.1.0",
+      "versionSource": "Win32 file version",
+      "commit": "68f4808c1cebbc4daef83ee240d65867f2a2f473",
+      "commitDate": "2025-12-31",
+      "commitMessage": "2.12.1 正式版",
+      "gitBlob": "86fce217e5023adcc58c5e8a6ece2a7ea4ebd44b",
+      "file": "PCL-upstream-68f4808c1ceb.zip",
+      "size": 2652197,
+      "sha256": "109fefcea91333dc68e9cced7efebe7307f25d42de8ae9119350d13219105c0c",
+      "executable": "Plain Craft Launcher 2.exe",
+      "executableSha256": "86fc9aa0b3b8697ac24c8068445b46fe0414bb169b30cbcac16b8cb5db8332b8",
+      "sourceUrl": "https://github.com/Meloong-Git/PCL/blob/68f4808c1cebbc4daef83ee240d65867f2a2f473/%E6%9C%80%E6%96%B0%E6%AD%A3%E5%BC%8F%E7%89%88.zip"
+    },
+    {
+      "version": "2.10.9.0",
+      "versionSource": "Win32 file version",
+      "commit": "00966bec6a67f11646ab526e3b07a7fe94b43f73",
+      "commitDate": "2025-10-08",
+      "commitMessage": "2.10.9 正式版",
+      "gitBlob": "235b8820355f63ac5ba384b0b867b3d8564ee5aa",
+      "file": "PCL-upstream-00966bec6a67.zip",
+      "size": 2542246,
+      "sha256": "4fadca47d57d1f545165b62a1f6971908f937eb735bf9461899df091dbea227d",
+      "executable": "Plain Craft Launcher 2.exe",
+      "executableSha256": "45f546ed00d0ed250e28f3fea009e219f252de5716ac0b32a123e295e5b5180d",
+      "sourceUrl": "https://github.com/Meloong-Git/PCL/blob/00966bec6a67f11646ab526e3b07a7fe94b43f73/%E6%9C%80%E6%96%B0%E6%AD%A3%E5%BC%8F%E7%89%88.zip"
+    },
+    {
+      "version": "2.10.8.0",
+      "versionSource": "Win32 file version",
+      "commit": "49984a291358f4ec1625c3f1069a4d05f61069fb",
+      "commitDate": "2025-09-13",
+      "commitMessage": "2.10.8 正式版",
+      "gitBlob": "411827349b80fd7197b9e11392e4a55b743d6251",
+      "file": "PCL-upstream-49984a291358.zip",
+      "size": 2546647,
+      "sha256": "8278c6a33e9608a6d2c888947c89a2c5d754e353b3c0012b23413220f6bbb6c9",
+      "executable": "Plain Craft Launcher 2.exe",
+      "executableSha256": "229f10eae82b20af61459f88cb36161a561711d4651f34a99bfde6988eb8d78d",
+      "sourceUrl": "https://github.com/Meloong-Git/PCL/blob/49984a291358f4ec1625c3f1069a4d05f61069fb/%E6%9C%80%E6%96%B0%E6%AD%A3%E5%BC%8F%E7%89%88.zip"
+    },
+    {
+      "version": "2.10.6.0",
+      "versionSource": "Win32 file version",
+      "commit": "8e095ddaeda9ba632e8ceb5ad9da94857ef8b0f7",
+      "commitDate": "2025-08-14",
+      "commitMessage": "2.10.6 正式版",
+      "gitBlob": "831ebc0b0b68b535de30fc2baa299e6ee51cfa0f",
+      "file": "PCL-upstream-8e095ddaeda9.zip",
+      "size": 2709712,
+      "sha256": "ce125000ea933748a3cad7079626134a9f2acc6fa8662392b334cf223d601ced",
+      "executable": "Plain Craft Launcher 2.exe",
+      "executableSha256": "3edb34eb2b7b05b80f6051b647847150b9732123afde71b6ae7be55c51105460",
+      "sourceUrl": "https://github.com/Meloong-Git/PCL/blob/8e095ddaeda9ba632e8ceb5ad9da94857ef8b0f7/%E6%9C%80%E6%96%B0%E6%AD%A3%E5%BC%8F%E7%89%88.zip"
+    },
+    {
+      "version": "2.10.5.0",
+      "versionSource": "Win32 file version",
+      "commit": "8e0f53c8813bd7ed6f5dc580ee6db4daeb42fd91",
+      "commitDate": "2025-08-08",
+      "commitMessage": "2.10.5 正式版",
+      "gitBlob": "cf83e7b448dfcde1065c5e519e9374b2a3b568a0",
+      "file": "PCL-upstream-8e0f53c8813b.zip",
+      "size": 2704766,
+      "sha256": "829286550a48c16d211e778a1315e4479ec2f1e26c2e968219fbfbf80fb60d21",
+      "executable": "Plain Craft Launcher 2.exe",
+      "executableSha256": "882a9c04e1f3267c159c6ad92ee33eb82a0eb3d2cc6599fc92e006bc28204ade",
+      "sourceUrl": "https://github.com/Meloong-Git/PCL/blob/8e0f53c8813bd7ed6f5dc580ee6db4daeb42fd91/%E6%9C%80%E6%96%B0%E6%AD%A3%E5%BC%8F%E7%89%88.zip"
+    },
+    {
+      "version": "2.10.3.0",
+      "versionSource": "Win32 file version",
+      "commit": "fdf5407ea3eecad953620dacb0e4733b1480117a",
+      "commitDate": "2025-06-17",
+      "commitMessage": "2.10.3",
+      "gitBlob": "3e019854bc4671b81a7584130584f3d08755ca87",
+      "file": "PCL-upstream-fdf5407ea3ee.zip",
+      "size": 2543566,
+      "sha256": "c89e8addb0211c66dba489833801b58a3e3f1550fe32dba0903b28bc2e66eb36",
+      "executable": "Plain Craft Launcher 2.exe",
+      "executableSha256": "1121b40d16d9e63e717eeef3d8956f86ec4f95121aebe8394b003fdeb7bdb597",
+      "sourceUrl": "https://github.com/Meloong-Git/PCL/blob/fdf5407ea3eecad953620dacb0e4733b1480117a/%E6%9C%80%E6%96%B0%E6%AD%A3%E5%BC%8F%E7%89%88.zip"
+    },
+    {
+      "version": "2.10.2.0",
+      "versionSource": "Win32 file version",
+      "commit": "4585f310822a5ec47194fc55833555ea59c1f3f5",
+      "commitDate": "2025-06-17",
+      "commitMessage": "2.10.2 正式版",
+      "gitBlob": "41dff3922c35f2b5caddc781520f5155b3316832",
+      "file": "PCL-upstream-4585f310822a.zip",
+      "size": 2543670,
+      "sha256": "36aec87427b5dc623548e0fdedfd6e3171acd4ab7fd4aca17982cd2ba1deb03b",
+      "executable": "Plain Craft Launcher 2.exe",
+      "executableSha256": "da7884c185e24696531b26f8ffc97ddbfb472d83fb46af708cea3e0a106b9c6b",
+      "sourceUrl": "https://github.com/Meloong-Git/PCL/blob/4585f310822a5ec47194fc55833555ea59c1f3f5/%E6%9C%80%E6%96%B0%E6%AD%A3%E5%BC%8F%E7%89%88.zip"
+    },
+    {
+      "version": "2.10.0.0",
+      "versionSource": "Win32 file version",
+      "commit": "bf6fa718c89e8615b947d1c639ed16a72ce125e0",
+      "commitDate": "2025-05-04",
+      "commitMessage": "2.10.0 正式版",
+      "gitBlob": "27e8e3164097a22517f08164af6cb1f703409dfc",
+      "file": "PCL-upstream-bf6fa718c89e.zip",
+      "size": 2521639,
+      "sha256": "9e4d7734055d6c3b5ca99d573b3742afa316f2cdfdad4e3a2c101effc527954e",
+      "executable": "Plain Craft Launcher 2.exe",
+      "executableSha256": "4e91d45e3e4ea53fc5cffa17257b8beb90bc75fb0af112c5b0006a4a9b8b8f6e",
+      "sourceUrl": "https://github.com/Meloong-Git/PCL/blob/bf6fa718c89e8615b947d1c639ed16a72ce125e0/%E6%9C%80%E6%96%B0%E6%AD%A3%E5%BC%8F%E7%89%88.zip"
+    },
+    {
+      "version": "2.9.3.0",
+      "versionSource": "Win32 file version",
+      "commit": "16e09c792ce8c13435fc6827e6da54170aaa3bc0",
+      "commitDate": "2025-04-05",
+      "commitMessage": "2.9.3",
+      "gitBlob": "9eec8e281b0e86d9dec6381678d133d71545968e",
+      "file": "PCL-upstream-16e09c792ce8.zip",
+      "size": 2518526,
+      "sha256": "dbcf749f4929f1adf3d4403c6d32bea6e3b446bfec2496e9263e8226ded4a94a",
+      "executable": "Plain Craft Launcher 2.exe",
+      "executableSha256": "db31ae5e1e15152150578f10f40d1bf01dc564d397843b9401684612babc0b60",
+      "sourceUrl": "https://github.com/Meloong-Git/PCL/blob/16e09c792ce8c13435fc6827e6da54170aaa3bc0/%E6%9C%80%E6%96%B0%E6%AD%A3%E5%BC%8F%E7%89%88.zip"
+    },
+    {
+      "version": "2.9.1.0",
+      "versionSource": "Win32 file version",
+      "commit": "503244a0de28094414fe7cd4e13938a1ebd4202d",
+      "commitDate": "2025-02-22",
+      "commitMessage": "2.9.1",
+      "gitBlob": "fbf4300aba82ec75d0bc2e66fa1d9555d81ced99",
+      "file": "PCL-upstream-503244a0de28.zip",
+      "size": 2488267,
+      "sha256": "1aff6774fd5899be6648df70315d4c6fcf629154ba395fa5c6cfb3d559cf85ad",
+      "executable": "Plain Craft Launcher 2.exe",
+      "executableSha256": "39fc9378ad769246d41c84cc35dd71e198ccf6cf48d2add70862865d863c0ed5",
+      "sourceUrl": "https://github.com/Meloong-Git/PCL/blob/503244a0de28094414fe7cd4e13938a1ebd4202d/%E6%9C%80%E6%96%B0%E6%AD%A3%E5%BC%8F%E7%89%88.zip"
+    },
+    {
+      "version": "2.8.13.0",
+      "versionSource": "Win32 file version",
+      "commit": "c5197e2f2db6a17a67904f2c9863a6655f5a213a",
+      "commitDate": "2025-01-27",
+      "commitMessage": "2.8.13 正式版",
+      "gitBlob": "838e85b12645f38e2c671c9f331010856e43fc32",
+      "file": "PCL-upstream-c5197e2f2db6.zip",
+      "size": 2441179,
+      "sha256": "4d6d4c76bf3d235f4e026cc53a2be7b63a39529438962fc2b3dc7683592177fe",
+      "executable": "Plain Craft Launcher 2.exe",
+      "executableSha256": "55c2034ab4381499faa3e6ba8692e3d5a44e6ef916999df41069582a6a1ac5c1",
+      "sourceUrl": "https://github.com/Meloong-Git/PCL/blob/c5197e2f2db6a17a67904f2c9863a6655f5a213a/%E6%9C%80%E6%96%B0%E6%AD%A3%E5%BC%8F%E7%89%88.zip"
+    },
+    {
+      "version": "2.8.12.0",
+      "versionSource": "Win32 file version",
+      "commit": "a8bb82b033917c8a1b0a332a3d2ac3149d317a4d",
+      "commitDate": "2024-12-13",
+      "commitMessage": "2.8.12 正式版",
+      "gitBlob": "29be464e6a8348b55fd086c31fe4dcb9c0c50034",
+      "file": "PCL-upstream-a8bb82b03391.zip",
+      "size": 2462771,
+      "sha256": "896e3c1e1c94e25744b122a4035140dba06e8ea779f6e0f42e1809311856c2a2",
+      "executable": "Plain Craft Launcher 2.exe",
+      "executableSha256": "6b3215970d8bed910b539964b9355eec15387e5aa5ae73c58b3e83dfb9e155bc",
+      "sourceUrl": "https://github.com/Meloong-Git/PCL/blob/a8bb82b033917c8a1b0a332a3d2ac3149d317a4d/%E6%9C%80%E6%96%B0%E6%AD%A3%E5%BC%8F%E7%89%88.zip"
+    },
+    {
+      "version": "2.8.9.0",
+      "versionSource": "Win32 file version",
+      "commit": "c2d20e422b67c63cc18426683f99f07fdcc2110f",
+      "commitDate": "2024-10-21",
+      "commitMessage": "2.8.9 正式版",
+      "gitBlob": "a8fad44a58cddc7b18ff2e794b2dc9e5323c95cc",
+      "file": "PCL-upstream-c2d20e422b67.zip",
+      "size": 2438516,
+      "sha256": "e6dd7d82cbad37df4d7215850a175f8b7cf52b2f0d010e7707908d3e40a136cc",
+      "executable": "Plain Craft Launcher 2.exe",
+      "executableSha256": "f76de682be1b2e5fe418a475e009810d00f336f6d054efcaa7c79cb679b5947a",
+      "sourceUrl": "https://github.com/Meloong-Git/PCL/blob/c2d20e422b67c63cc18426683f99f07fdcc2110f/%E6%9C%80%E6%96%B0%E6%AD%A3%E5%BC%8F%E7%89%88.zip"
+    },
+    {
+      "version": "2.8.8.0",
+      "versionSource": "Win32 file version",
+      "commit": "76bf3c40d04653c05be83871aefeefc8aa52d172",
+      "commitDate": "2024-10-01",
+      "commitMessage": "2.8.8",
+      "gitBlob": "0e58940f5ce235613de671d938586af05df6a72b",
+      "file": "PCL-upstream-76bf3c40d046.zip",
+      "size": 2381212,
+      "sha256": "331108ff2fdc71ee0e07b03bd0a095ae7b24f8c1fa0d05d6bf3b6f48efe0b2b9",
+      "executable": "Plain Craft Launcher 2.exe",
+      "executableSha256": "9efee7ffd172a0ab29b0e0ab2bf2de6675b19b9effb69a54f995915dfac1a732",
+      "sourceUrl": "https://github.com/Meloong-Git/PCL/blob/76bf3c40d04653c05be83871aefeefc8aa52d172/%E6%9C%80%E6%96%B0%E6%AD%A3%E5%BC%8F%E7%89%88.zip"
+    },
+    {
+      "version": "2.8.7.0",
+      "versionSource": "Win32 file version",
+      "commit": "fad37c9b468701025e265534e30f503d7b79c37d",
+      "commitDate": "2024-09-28",
+      "commitMessage": "正式版 2.8.7",
+      "gitBlob": "144de9a9a9b023fdb1fc7def22b1a09fd5b05a10",
+      "file": "PCL-upstream-fad37c9b4687.zip",
+      "size": 2421600,
+      "sha256": "4c3e35fe91a86d29b4da760561ae9459ca65c84ff8d0083779d1d0432e310188",
+      "executable": "Plain Craft Launcher 2.exe",
+      "executableSha256": "f21b56d078f6d2374c3755bcc565b379b3d4a768b6e3a80c600a0326bece4b8e",
+      "sourceUrl": "https://github.com/Meloong-Git/PCL/blob/fad37c9b468701025e265534e30f503d7b79c37d/%E6%9C%80%E6%96%B0%E6%AD%A3%E5%BC%8F%E7%89%88.zip"
+    },
+    {
+      "version": "2.8.6.0",
+      "versionSource": "Win32 file version",
+      "commit": "4f69e9e2d22dc1731a1d1cb7d75ac04129b02038",
+      "commitDate": "2024-09-05",
+      "commitMessage": "2.8.6 正式版",
+      "gitBlob": "252209cd433c4781c4e58ec078bb7a62a7f1e699",
+      "file": "PCL-upstream-4f69e9e2d22d.zip",
+      "size": 2181310,
+      "sha256": "f968473f6f17482656e5975cae655270cbb0ba3bd674f5b9dd558749dbbc7fc5",
+      "executable": "Plain Craft Launcher 2.exe",
+      "executableSha256": "d543e5b1bd72dcb54491551c2eb63dfd0ec2f238b155f651b40af3fbc80d4ea3",
+      "sourceUrl": "https://github.com/Meloong-Git/PCL/blob/4f69e9e2d22dc1731a1d1cb7d75ac04129b02038/%E6%9C%80%E6%96%B0%E6%AD%A3%E5%BC%8F%E7%89%88.zip"
+    },
+    {
+      "version": "2.8.3.0",
+      "versionSource": "Win32 file version",
+      "commit": "5bd8ac3870170b0acd4d81934227829f8e79ca84",
+      "commitDate": "2024-07-13",
+      "commitMessage": "2.8.3",
+      "gitBlob": "f4ca635a6d6dab0fdcc2bed498672424f180d9bf",
+      "file": "PCL-upstream-5bd8ac387017.zip",
+      "size": 2149020,
+      "sha256": "fc0ce6f43babbba1cc69bcb615ca0ac3bb3a3061a6921aaf355f010f1ab03ae0",
+      "executable": "Plain Craft Launcher 2.exe",
+      "executableSha256": "1316019c7ae87e08ec7255a3da694b0bea23da369c03959b68c782421106867a",
+      "sourceUrl": "https://github.com/Meloong-Git/PCL/blob/5bd8ac3870170b0acd4d81934227829f8e79ca84/%E6%9C%80%E6%96%B0%E6%AD%A3%E5%BC%8F%E7%89%88.zip"
+    },
+    {
+      "version": "2.8.2.0",
+      "versionSource": "Win32 file version",
+      "commit": "a3c419e76d7f9132eb43fefef52e73110842c0a0",
+      "commitDate": "2024-07-12",
+      "commitMessage": "2.8.2 正式版",
+      "gitBlob": "4ee2c7d09fd11b59b75229356b4c91cdc65b13ba",
+      "file": "PCL-upstream-a3c419e76d7f.zip",
+      "size": 2149534,
+      "sha256": "c5c2567de641d0dd2913cc069e2a80fe187a372694b775e1c6509c1882650b70",
+      "executable": "Plain Craft Launcher 2.exe",
+      "executableSha256": "82d9044513afe207445df7e6142bb6e017335f600a6879b19ec6016ae440ee12",
+      "sourceUrl": "https://github.com/Meloong-Git/PCL/blob/a3c419e76d7f9132eb43fefef52e73110842c0a0/%E6%9C%80%E6%96%B0%E6%AD%A3%E5%BC%8F%E7%89%88.zip"
+    },
+    {
+      "version": "2.7.4.0",
+      "versionSource": "Win32 file version",
+      "commit": "deca6b63028492ac57c4bb9099422cf29dd08dd3",
+      "commitDate": "2024-06-07",
+      "commitMessage": "2.7.4 正式版",
+      "gitBlob": "22f5cc68be0bd8d378ecdef7493b3da245dca4c5",
+      "file": "PCL-upstream-deca6b630284.zip",
+      "size": 2118877,
+      "sha256": "615f28187f67ca879fdb99ab00ef51a785009d73b80e7546391a9bac7c6f6e01",
+      "executable": "Plain Craft Launcher 2.exe",
+      "executableSha256": "62db132960dc97ec92f3cf8a1005dcf1b32229b19ab98aca18210e8df1ca2e25",
+      "sourceUrl": "https://github.com/Meloong-Git/PCL/blob/deca6b63028492ac57c4bb9099422cf29dd08dd3/%E6%9C%80%E6%96%B0%E6%AD%A3%E5%BC%8F%E7%89%88.zip"
+    },
+    {
+      "version": "2.7.3.0",
+      "versionSource": "Win32 file version",
+      "commit": "df81f71f9b7470d87fbbe7f61a12c42e855f0c3e",
+      "commitDate": "2024-05-17",
+      "commitMessage": "2.7.3 正式版",
+      "gitBlob": "0f9b6af76d2ca42ad8d0b867f638e13e4610daf2",
+      "file": "PCL-upstream-df81f71f9b74.zip",
+      "size": 2137656,
+      "sha256": "1dbce00c7ed99c16818dc0b4a0abf2499a00fd366778d267f70a573809c070a3",
+      "executable": "Plain Craft Launcher 2.exe",
+      "executableSha256": "f47807490d4cd0a03e0dc16fed36754e33cbcf530505f0a32b5408a8d5b6972b",
+      "sourceUrl": "https://github.com/Meloong-Git/PCL/blob/df81f71f9b7470d87fbbe7f61a12c42e855f0c3e/%E6%9C%80%E6%96%B0%E6%AD%A3%E5%BC%8F%E7%89%88.zip"
+    },
+    {
+      "version": "2.7.1.0",
+      "versionSource": "Win32 file version",
+      "commit": "c47b80df362b3360e7a90b8a5846af50168c4d49",
+      "commitDate": "2024-04-08",
+      "commitMessage": "2.7.1 正式版",
+      "gitBlob": "c2b36302cdb8b614d4903756d2d4602d3227a169",
+      "file": "PCL-upstream-c47b80df362b.zip",
+      "size": 2099021,
+      "sha256": "163454d7a51a14b291ea67b342ba9feb3058dca99f9e097d2c955cfba5d40039",
+      "executable": "Plain Craft Launcher 2.exe",
+      "executableSha256": "cc657fbd03478eaa070914dcc6b963086ad67df4d1ff40d3016feb4927b45ec7",
+      "sourceUrl": "https://github.com/Meloong-Git/PCL/blob/c47b80df362b3360e7a90b8a5846af50168c4d49/%E6%9C%80%E6%96%B0%E6%AD%A3%E5%BC%8F%E7%89%88.zip"
+    },
+    {
+      "version": "2.7.0.0",
+      "versionSource": "Win32 file version",
+      "commit": "43b0acba08a2c5dc062cb7e0f79d1375d7c5a326",
+      "commitDate": "2024-04-08",
+      "commitMessage": "2.7.1",
+      "gitBlob": "5463128a753562f0f2f880ff79bc19de631f16d9",
+      "file": "PCL-upstream-43b0acba08a2.zip",
+      "size": 2115614,
+      "sha256": "c7a8a3263fbc2f33628901ad5d6aee00773e43c8caf5953b7cfe871e0aacfa29",
+      "executable": "Plain Craft Launcher 2.exe",
+      "executableSha256": "6ad7fd5107d0b9358cdc34bc202b5d09bec837d46c25724b7d8819cb38e7baa3",
+      "sourceUrl": "https://github.com/Meloong-Git/PCL/blob/43b0acba08a2c5dc062cb7e0f79d1375d7c5a326/%E6%9C%80%E6%96%B0%E6%AD%A3%E5%BC%8F%E7%89%88.zip"
+    },
+    {
+      "version": "2.7.0.0",
+      "versionSource": "Win32 file version",
+      "commit": "424106001004d594d9e3ed07320bc7f9a678965f",
+      "commitDate": "2024-04-05",
+      "commitMessage": "2.7.0 正式版",
+      "gitBlob": "e209be0eba492793d7aaca9965fcfdc12fe118fd",
+      "file": "PCL-upstream-424106001004.zip",
+      "size": 2114922,
+      "sha256": "c19757eafa13f0d9d4e2bc5278b9bfa2e86c37fe79b8b4c928aed9353a3f025a",
+      "executable": "Plain Craft Launcher 2.exe",
+      "executableSha256": "972eb96196e11527641c2a6a8d721c38e67def4b4e31388eff40dd48333c0729",
+      "sourceUrl": "https://github.com/Meloong-Git/PCL/blob/424106001004d594d9e3ed07320bc7f9a678965f/%E6%9C%80%E6%96%B0%E6%AD%A3%E5%BC%8F%E7%89%88.zip"
+    },
+    {
+      "version": "2.6.14.0",
+      "versionSource": "Win32 file version",
+      "commit": "ec6784d57d508b405e723726f20708c6336b2412",
+      "commitDate": "2024-02-23",
+      "commitMessage": "2.6.14 正式版",
+      "gitBlob": "8ebd9c2a867198cbfbe1c2235db46129a1af1f02",
+      "file": "PCL-upstream-ec6784d57d50.zip",
+      "size": 2109306,
+      "sha256": "47a458b63e8b87b9eb912d9bb660b0bc47a73d4ff2dde39e44f018973dbd803a",
+      "executable": "Plain Craft Launcher 2.exe",
+      "executableSha256": "8fd95889da464cb0c36df1a5c4e5943a994180337b6aa2b6e83236321ba2e982",
+      "sourceUrl": "https://github.com/Meloong-Git/PCL/blob/ec6784d57d508b405e723726f20708c6336b2412/%E6%9C%80%E6%96%B0%E6%AD%A3%E5%BC%8F%E7%89%88.zip"
+    },
+    {
+      "version": "2.6.13.0",
+      "versionSource": "Win32 file version",
+      "commit": "8c8b1066bff6476a14437a14bc16a281e25145bd",
+      "commitDate": "2024-01-06",
+      "commitMessage": "2.6.13 正式版",
+      "gitBlob": "7639fe2bc5a6ccb8eeb13c30c85b2f5c9bab64ef",
+      "file": "PCL-upstream-8c8b1066bff6.zip",
+      "size": 2110887,
+      "sha256": "880ff1cc60a462954a1907d30331044a7b360519be5bb8619fc72c7130e4d8c6",
+      "executable": "Plain Craft Launcher 2.exe",
+      "executableSha256": "ceb033e2ead167f047a9eeecf4a1fc8a339e5017ccd0f255a18e643c46685fdf",
+      "sourceUrl": "https://github.com/Meloong-Git/PCL/blob/8c8b1066bff6476a14437a14bc16a281e25145bd/%E6%9C%80%E6%96%B0%E6%AD%A3%E5%BC%8F%E7%89%88.zip"
+    },
+    {
+      "version": "2.6.12.0",
+      "versionSource": "Win32 file version",
+      "commit": "fa054d9a9e3b44d592a6dacb84912fa8e25cabb7",
+      "commitDate": "2023-12-26",
+      "commitMessage": "2.6.12 正式版",
+      "gitBlob": "8c8e67db9537607573e742f7730d7afe08918d4c",
+      "file": "PCL-upstream-fa054d9a9e3b.zip",
+      "size": 2111949,
+      "sha256": "87e5cf84e81594b4684959b25d179156126deb7378e28eda28f19b0e143c4a4e",
+      "executable": "Plain Craft Launcher 2.exe",
+      "executableSha256": "453e2576155e1ec49617b7ac67a3395e11718af2bfc4796a1e370f80f7b85253",
+      "sourceUrl": "https://github.com/Meloong-Git/PCL/blob/fa054d9a9e3b44d592a6dacb84912fa8e25cabb7/%E6%9C%80%E6%96%B0%E6%AD%A3%E5%BC%8F%E7%89%88.zip"
+    },
+    {
+      "version": "2.6.10.0",
+      "versionSource": "Win32 file version",
+      "commit": "8308577549f4954a99bafcd4a164f872a1fe67b6",
+      "commitDate": "2023-10-25",
+      "commitMessage": "2.6.10 正式版",
+      "gitBlob": "8c8f6c8ff36d7d0d5387f5e51c52205101f90c60",
+      "file": "PCL-upstream-8308577549f4.zip",
+      "size": 2094732,
+      "sha256": "bc71f5a42b7d8c06e1143036eccb59bb2ed94705efd8d3ea8b6886b3b485079c",
+      "executable": "Plain Craft Launcher 2.exe",
+      "executableSha256": "3a915f32257a2e07ef4b105c83266c8c9af104efd1e38ae8f4e95000f1c7971f",
+      "sourceUrl": "https://github.com/Meloong-Git/PCL/blob/8308577549f4954a99bafcd4a164f872a1fe67b6/%E6%9C%80%E6%96%B0%E6%AD%A3%E5%BC%8F%E7%89%88.zip"
+    },
+    {
+      "version": "2.6.7.0",
+      "versionSource": "Win32 file version",
+      "commit": "b717bb31c87740650d2179acb36fcc82fad3af74",
+      "commitDate": "2023-08-22",
+      "commitMessage": "2.6.7 正式版",
+      "gitBlob": "8ba6392c172103c22192c99b8db5452683558304",
+      "file": "PCL-upstream-b717bb31c877.zip",
+      "size": 2074584,
+      "sha256": "f618406d6416089b038008e90f6e85185b3e6a2d2339187d44edefeb93d108d9",
+      "executable": "Plain Craft Launcher 2.exe",
+      "executableSha256": "47f7627051db05e67633ef18218b6d3bb66f0a6718b3b8913f531c122bd44b29",
+      "sourceUrl": "https://github.com/Meloong-Git/PCL/blob/b717bb31c87740650d2179acb36fcc82fad3af74/%E6%9C%80%E6%96%B0%E6%AD%A3%E5%BC%8F%E7%89%88.zip"
+    },
+    {
+      "version": "2.6.6.0",
+      "versionSource": "Win32 file version",
+      "commit": "e4ae1a057a449b0a5c440fd868d9f8db6c07364b",
+      "commitDate": "2023-08-21",
+      "commitMessage": "2.6.6 正式版",
+      "gitBlob": "fb35bc1fd1db65a02cc96a4aaffd60a929db91d4",
+      "file": "PCL-upstream-e4ae1a057a44.zip",
+      "size": 2074245,
+      "sha256": "6eeae71e6c32c488bbb415247737280253619b9132eb2c069b971d2a020ceb72",
+      "executable": "Release 2.6.6.exe",
+      "executableSha256": "e8b57c4bc6f60eca976f96b6026ce893b32bee672ce3a5dfb7c6856e21b41fd4",
+      "sourceUrl": "https://github.com/Meloong-Git/PCL/blob/e4ae1a057a449b0a5c440fd868d9f8db6c07364b/%E6%9C%80%E6%96%B0%E6%AD%A3%E5%BC%8F%E7%89%88.zip"
+    },
+    {
+      "version": "2.6.3.0",
+      "versionSource": "Win32 file version",
+      "commit": "2c2bd2d4893417d9b10e270c9cc82aceea747bbf",
+      "commitDate": "2023-07-02",
+      "commitMessage": "2.6.3 正式版",
+      "gitBlob": "ba0e5a43fec08b22008926dc272b22c11adfe649",
+      "file": "PCL-upstream-2c2bd2d48934.zip",
+      "size": 2029813,
+      "sha256": "6c2ef7d2fb1c6b309a83692d21e33c6562dbf1043e52f9a69cdbd9db2ff308f1",
+      "executable": "Plain Craft Launcher 2.exe",
+      "executableSha256": "4048606505b71687b07637af4ca69d2f6f0905f779cba22e3658a395d2fda068",
+      "sourceUrl": "https://github.com/Meloong-Git/PCL/blob/2c2bd2d4893417d9b10e270c9cc82aceea747bbf/%E6%9C%80%E6%96%B0%E6%AD%A3%E5%BC%8F%E7%89%88.zip"
+    },
+    {
+      "version": "2.6.1.0",
+      "versionSource": "Win32 file version",
+      "commit": "c1a26a119fadbb5b7d1443e9be46ac0cdff26e84",
+      "commitDate": "2023-05-26",
+      "commitMessage": "2.6.1（正式版重新上传）",
+      "gitBlob": "8238535b303e4f96b57d2d330853bb40871aef94",
+      "file": "PCL-upstream-c1a26a119fad.zip",
+      "size": 2006746,
+      "sha256": "356d1173aa5f4a2b4663cd22f59d95e7d3980e41312aa44b16d8863b684b44ad",
+      "executable": "Plain Craft Launcher 2.exe",
+      "executableSha256": "99bbc42ce17aac9cc5ec44335fc210f5ee53525bd575d507475c0518177b47c0",
+      "sourceUrl": "https://github.com/Meloong-Git/PCL/blob/c1a26a119fadbb5b7d1443e9be46ac0cdff26e84/%E6%9C%80%E6%96%B0%E6%AD%A3%E5%BC%8F%E7%89%88.zip"
+    },
+    {
+      "version": "2.6.0.0",
+      "versionSource": "Win32 file version",
+      "commit": "10cc561ac619a874f605877fefe6147a793ba093",
+      "commitDate": "2023-05-26",
+      "commitMessage": "2.6.0 正式版重新上传",
+      "gitBlob": "9b641e98c43392d707f5565b8dbec7b6716386f8",
+      "file": "PCL-upstream-10cc561ac619.zip",
+      "size": 2006827,
+      "sha256": "848289c8918863c32e734e9d6c03610e714047082657d77a33ca1e3be24d94ca",
+      "executable": "Plain Craft Launcher 2.exe",
+      "executableSha256": "325685cca57d078d2f401f263f79c968081c294b3fd8b80c1066aeebd96a8a89",
+      "sourceUrl": "https://github.com/Meloong-Git/PCL/blob/10cc561ac619a874f605877fefe6147a793ba093/%E6%9C%80%E6%96%B0%E6%AD%A3%E5%BC%8F%E7%89%88.zip"
+    },
+    {
+      "version": "2.6.0.0",
+      "versionSource": "Win32 file version",
+      "commit": "d01372495be1c229483b02632ce7db1364093a8f",
+      "commitDate": "2023-05-25",
+      "commitMessage": "2.6.0 正式版",
+      "gitBlob": "4c5384eb3ee7be26057af23623a530a1d3c0908b",
+      "file": "PCL-upstream-d01372495be1.zip",
+      "size": 2003373,
+      "sha256": "df3f97477d461a40a321d3aadcc97da24f4c1151b6f6fe0e6329eceeff3d8174",
+      "executable": "Plain Craft Launcher 2.exe",
+      "executableSha256": "05d095dd317c6b4b27b55a14e511e7896cf68d3c7da0f84e0469e5f1cd720af3",
+      "sourceUrl": "https://github.com/Meloong-Git/PCL/blob/d01372495be1c229483b02632ce7db1364093a8f/%E6%9C%80%E6%96%B0%E6%AD%A3%E5%BC%8F%E7%89%88.zip"
+    },
+    {
+      "version": "2.5.2.0",
+      "versionSource": "Win32 file version",
+      "commit": "b5adc1175c13322e377786f8b99435f0dfa3bdad",
+      "commitDate": "2023-03-28",
+      "commitMessage": "2.5.2 正式版",
+      "gitBlob": "9bd4d6e44f4889b73d969efe39ba647a21f4dd58",
+      "file": "PCL-upstream-b5adc1175c13.zip",
+      "size": 1985523,
+      "sha256": "98b98093765922bbc0264e7fd98c7042674b75ae3e04c537608f937929222e56",
+      "executable": "Plain Craft Launcher 2.exe",
+      "executableSha256": "69ce38c578044971ee68d868fa411d47648ee56ba0be0db5885d7bc10d9a3d18",
+      "sourceUrl": "https://github.com/Meloong-Git/PCL/blob/b5adc1175c13322e377786f8b99435f0dfa3bdad/%E6%9C%80%E6%96%B0%E6%AD%A3%E5%BC%8F%E7%89%88.zip"
+    },
+    {
+      "version": "2.4.9.0",
+      "versionSource": "Win32 file version",
+      "commit": "a9bf0b682a02febe69b8518305577e7c6710e348",
+      "commitDate": "2023-02-07",
+      "commitMessage": "2.4.9 正式版",
+      "gitBlob": "f737f329711b5aa46bc6256256e66f161f09f242",
+      "file": "PCL-upstream-a9bf0b682a02.zip",
+      "size": 1942424,
+      "sha256": "479d1e52af16730e204c20694aedbf0c8be098671925c7a54396c473845e4684",
+      "executable": "Plain Craft Launcher 2.exe",
+      "executableSha256": "cd0cae44310173ea60d49a04ff11eaf3ab5c301c27c04fb9f3d2dc75ad523d39",
+      "sourceUrl": "https://github.com/Meloong-Git/PCL/blob/a9bf0b682a02febe69b8518305577e7c6710e348/%E6%9C%80%E6%96%B0%E6%AD%A3%E5%BC%8F%E7%89%88.zip"
+    },
+    {
+      "version": "2.4.8.0",
+      "versionSource": "Win32 file version",
+      "commit": "64539ad55c8341045ea8aa2cd255e0ccb9049686",
+      "commitDate": "2023-02-06",
+      "commitMessage": "2.4.8 正式版",
+      "gitBlob": "5691b24132c321068d6ff53f2676a5618a253bd1",
+      "file": "PCL-upstream-64539ad55c83.zip",
+      "size": 1943261,
+      "sha256": "f59898f891dcecd6231d19596ee1805deda5e60b1997095ec242bab97dfcecb4",
+      "executable": "Plain Craft Launcher 2.exe",
+      "executableSha256": "af1f62054c8ea0332e6f1b43eb0a8a7030bff2c338253009ea5f28551d3bc683",
+      "sourceUrl": "https://github.com/Meloong-Git/PCL/blob/64539ad55c8341045ea8aa2cd255e0ccb9049686/%E6%9C%80%E6%96%B0%E6%AD%A3%E5%BC%8F%E7%89%88.zip"
+    },
+    {
+      "version": "2.4.7.0",
+      "versionSource": "Win32 file version",
+      "commit": "eb9e7864c973fe5861c81edef1de287f44116ef0",
+      "commitDate": "2023-01-29",
+      "commitMessage": "2.4.7 正式版",
+      "gitBlob": "2d4033a8e33e3534cfe782c18841ff26f561ff4c",
+      "file": "PCL-upstream-eb9e7864c973.zip",
+      "size": 1937088,
+      "sha256": "140765415cfb24fead998ac6e092ea6258216498e137aeadc2e3ae1081cd8fd0",
+      "executable": "Plain Craft Launcher 2.exe",
+      "executableSha256": "49c39735a622e3f08110628dc96df0dd254352d96fef6d514383cd1914664eac",
+      "sourceUrl": "https://github.com/Meloong-Git/PCL/blob/eb9e7864c973fe5861c81edef1de287f44116ef0/%E6%9C%80%E6%96%B0%E6%AD%A3%E5%BC%8F%E7%89%88.zip"
+    },
+    {
+      "version": "2.4.4.0",
+      "versionSource": "Win32 file version",
+      "commit": "bef94fa7438daeda5e654b4c0f5d27f31c127e24",
+      "commitDate": "2022-12-16",
+      "commitMessage": "2.4.4 正式版",
+      "gitBlob": "405fe36df79047c7127299e7a9640d48e29a6964",
+      "file": "PCL-upstream-bef94fa7438d.zip",
+      "size": 1879008,
+      "sha256": "5f05dcee71f39aa3ac18302c1407e81129286cbf1e3ed3ca3c1312acb3ad6b91",
+      "executable": "Plain Craft Launcher 2.exe",
+      "executableSha256": "03342485feb128ab14e35d84d9f48d428c9d8774b145dcd8d520baacd4aef92b",
+      "sourceUrl": "https://github.com/Meloong-Git/PCL/blob/bef94fa7438daeda5e654b4c0f5d27f31c127e24/%E6%9C%80%E6%96%B0%E6%AD%A3%E5%BC%8F%E7%89%88.zip"
+    }
+  ]
+}
