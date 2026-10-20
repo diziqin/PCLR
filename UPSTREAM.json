@@ -1,0 +1,11 @@
+{
+  "project": "Plain Craft Launcher",
+  "repository": "https://github.com/Meloong-Git/PCL",
+  "author": "龙腾猫跃",
+  "sponsor": "https://meloong.com/afd/a/LTCat",
+  "version": "2.99.0.0",
+  "commit": "6b9a50df911c9d68b69b24c979efba477fb14b67",
+  "meloongCoreCommit": "98157d65c7627721c816c02e8be96ac4fe61d615",
+  "downstream": "Plain Craft Launcher (PCL) PCLR",
+  "downstreamRepository": "https://github.com/diziqin/PCLR"
+}

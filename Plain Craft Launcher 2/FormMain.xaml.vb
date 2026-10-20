@@ -451,6 +451,11 @@ Public Class FormMain
             If VersionBranchMain = "OpenSource" Then
                 MyMsgBox($"该版本中无法使用以下特性：{vbCrLf}- CurseForge API 调用：需要自行申请 API Key，然后添加到 ModSecret.vb 的开头{vbCrLf}- 正版登录：需要自行向微软申请 Client ID，然后添加到 ModSecret.vb 的开头{vbCrLf}- 更新与联网通知：避免滥用隐患{vbCrLf}- 主题切换：这是需要赞助解锁的纪念性质的功能，别让赞助者太伤心啦……{vbCrLf}- 百宝箱：开发早期往里面塞了些开发工具，整理起来太麻烦了……", "开源版本说明")
             End If
+            If VersionBranchMain = "PCLR" AndAlso Settings.Get(Of Integer)("SystemCount") = 1 Then
+                MyMsgBox("Plain Craft Launcher (PCL) PCLR 是第三方独立修改版，基于龙腾猫跃的 PCL 公开源码制作。" & vbCrLf & vbCrLf &
+                         "Minecraft 下载与整合包安装已恢复。微软登录和 CurseForge 接口需要自行配置 Client ID 与 API Key；Modrinth 不需要这些配置。" & vbCrLf &
+                         "项目与更新：https://github.com/diziqin/PCLR", "欢迎使用 PCLR")
+            End If
         End Sub, "初始化", ThreadPriority.Lowest)
 
         Logger.Info($"第三阶段加载用时：{GetTimeMs() - ApplicationStartTick} ms")
@@ -458,7 +463,7 @@ Public Class FormMain
     '根据打开次数触发的事件
     Private Sub RunCountSub()
         Settings.Set("SystemCount", Settings.Get(Of Integer)("SystemCount") + 1)
-        If BuildType = BuildTypes.Snapshot Then
+        If BuildType = BuildTypes.Snapshot AndAlso VersionBranchMain <> "PCLR" Then
             Select Case Settings.Get(Of Integer)("SystemCount")
                 Case 1
                     MyMsgBox("欢迎使用 PCL 快照版！" & vbCrLf &
