@@ -8,12 +8,13 @@
 
 ## 当前版本
 
-PCLR **2.99.0.1** 基于上游 **2.99.0.0**（`6b9a50df911c9d68b69b24c979efba477fb14b67`）。
+PCLR **2.99.0.2** 基于上游 **2.99.0.0**（`6b9a50df911c9d68b69b24c979efba477fb14b67`）。
 
 - 恢复 Minecraft 本体下载、自动安装及整合包安装入口。
 - 使用 PCLR 名称和独立的注册表、应用数据、单实例标识；保留蓝色界面、原作者署名与赞助入口。
 - 保留上游正版购买劝导、赞助劝导及第三方组件声明。
 - “检查更新”打开本仓库的最新发行页面；不从上游自动覆盖安装。
+- 修复 CurseForge 不可用：沿用上游数据结构与下载流程，未配置专用 API Key 时使用 `https://api.curse.tools` 公开兼容接口；已配置 Key 时优先官方接口。原有 MCIM 接口已暂停服务。
 
 修改仅恢复客户端入口，未对 Mojang、BMCLAPI、CurseForge 或 Modrinth 服务作任何修改；实际下载仍受下载源及网络状态影响。
 
@@ -21,11 +22,13 @@ PCLR **2.99.0.1** 基于上游 **2.99.0.0**（`6b9a50df911c9d68b69b24c979efba477
 
 需要 **64 位 Windows 与 .NET Framework 4.8**。
 
-从最新发行页下载 `PCLR-2.99.0.1-windows-Release.zip`，解压到独立目录并运行 `PCLR.exe`。也可以下载同名的独立 `.exe`。`Debug` 与 `Snapshot` 为排错和预览构建，普通使用请选择 `Release`。
+从最新发行页下载 `PCLR-2.99.0.2-windows-Release.zip`，解压到独立目录并运行 `PCLR.exe`。也可以下载同名的独立 `.exe`。`Debug` 与 `Snapshot` 为排错和预览构建，普通使用请选择 `Release`。
 
 请在新目录中使用，避免与原版共用目录内的 `PCL/Setup.ini`。游戏文件可以通过添加现有 Minecraft 文件夹复用。
 
-公开源码不包含上游的微软应用配置与 CurseForge 密钥。运行 PCLR 前可在当前进程环境中提供：
+CurseForge 默认可通过公开兼容接口访问，无需使用者提供 API Key。该接口是第三方公益服务，可能受缓存和可用性影响；本项目不会向该接口转发使用者的官方 API Key。
+
+公开源码不包含上游的微软应用配置与 CurseForge 密钥。如需微软登录或 CurseForge 官方直连，可在运行 PCLR 前提供自己的配置：
 
 ```powershell
 $env:PCL_MS_CLIENT_ID = '你自行申请的微软应用 Client ID'
@@ -33,7 +36,7 @@ $env:PCL_CURSEFORGE_API_KEY = '你自行申请的 CurseForge API Key'
 .\PCLR.exe
 ```
 
-这两项仅供对应服务使用；Minecraft 下载与 Modrinth 不依赖这些配置。请勿向仓库提交个人密钥。
+这些配置仅用于对应的官方服务；Minecraft 下载、Modrinth 与 CurseForge 公共兼容接口均不依赖它们。请勿向仓库提交个人密钥。
 
 ## 构建与验证
 

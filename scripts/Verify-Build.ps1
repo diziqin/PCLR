@@ -33,6 +33,8 @@ $flags = [Reflection.BindingFlags]'Public,NonPublic,Static'
 $secret = $assembly.GetType('PCL.ModSecret', $true)
 if ($secret.GetField('RestrictMcDownload', $flags).GetRawConstantValue() -ne $false) { throw 'Minecraft download is disabled in the binary.' }
 if ($secret.GetField('VersionBranchMain', $flags).GetRawConstantValue() -ne 'PCLR') { throw 'Incorrect downstream identity.' }
+$publicApi = $secret.GetField('CurseForgePublicApiBase', $flags)
+if ($publicApi -and $publicApi.GetRawConstantValue() -ne 'https://api.curse.tools') { throw 'Unexpected CurseForge public API endpoint.' }
 $name = $assembly.GetType('PCL.ModBase', $true).GetField('LauncherName', $flags).GetRawConstantValue()
 if ($name -ne 'Plain Craft Launcher (PCL) PCLR') { throw 'Incorrect launcher name.' }
 Write-Output 'Compiled PCLR identity and download switch verified.'

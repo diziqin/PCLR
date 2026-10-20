@@ -453,7 +453,7 @@ Public Class FormMain
             End If
             If VersionBranchMain = "PCLR" AndAlso Settings.Get(Of Integer)("SystemCount") = 1 Then
                 MyMsgBox("Plain Craft Launcher (PCL) PCLR 是第三方独立修改版，基于龙腾猫跃的 PCL 公开源码制作。" & vbCrLf & vbCrLf &
-                         "Minecraft 下载与整合包安装已恢复。微软登录和 CurseForge 接口需要自行配置 Client ID 与 API Key；Modrinth 不需要这些配置。" & vbCrLf &
+                         "Minecraft 下载与整合包安装已恢复，CurseForge 已接入公开兼容接口。微软登录仍需自行配置 Client ID。" & vbCrLf &
                          "项目与更新：https://github.com/diziqin/PCLR", "欢迎使用 PCLR")
             End If
         End Sub, "初始化", ThreadPriority.Lowest)

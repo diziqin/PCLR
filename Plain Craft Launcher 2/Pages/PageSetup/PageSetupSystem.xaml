@@ -48,6 +48,7 @@
             </local:MyCard>
             <local:MyCard Margin="0,0,0,15" Title="社区资源">
                 <StackPanel Margin="25,37,25,12">
+                    <local:MyHint Theme="Blue" Margin="0,0,0,12" Text="CurseForge 使用 Curse.Tools 公开兼容接口；配置自己的 API Key 后优先直连官方接口。兼容接口由第三方提供，数据可能存在缓存延迟。" />
                     <Grid>
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="Auto" SharedSizeGroup="Name" />

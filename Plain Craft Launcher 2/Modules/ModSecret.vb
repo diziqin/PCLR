@@ -10,6 +10,8 @@ Friend Module ModSecret
     Public OAuthClientId As String = If(Environment.GetEnvironmentVariable("PCL_MS_CLIENT_ID"), "")
     'CurseForge API Key
     Public CurseForgeAPIKey As String = If(Environment.GetEnvironmentVariable("PCL_CURSEFORGE_API_KEY"), "")
+    '公开兼容接口；不向第三方接口发送使用者的官方 API Key
+    Public Const CurseForgePublicApiBase As String = "https://api.curse.tools"
     '用于匿名数据收集的腾讯云日志服务上报 URL，形如 https://{region}.cls.tencentcs.com/track?topic_id={topic_id}
     Public Const ClsBaseUrl As String = ""
 
@@ -34,7 +36,13 @@ Friend Module ModSecret
             End If
         End If
         If Not SimulateBrowserHeaders Then Req.Headers.Add("Referer", $"http://{VersionCode}.open.pcl2.server/")
-        If Url.Contains("api.curseforge.com") OrElse Url.Contains("forgecdn.net") Then Req.Headers.Add("x-api-key", CurseForgeAPIKey)
+        Dim TargetUri As Uri = Nothing
+        If Not String.IsNullOrWhiteSpace(CurseForgeAPIKey) AndAlso Uri.TryCreate(Url, UriKind.Absolute, TargetUri) AndAlso
+           TargetUri.Scheme = Uri.UriSchemeHttps AndAlso
+           (TargetUri.Host.Equals("api.curseforge.com", StringComparison.OrdinalIgnoreCase) OrElse
+            TargetUri.Host.EndsWith(".forgecdn.net", StringComparison.OrdinalIgnoreCase)) Then
+            Req.Headers.Add("x-api-key", CurseForgeAPIKey)
+        End If
     End Sub
 
 #End Region
