@@ -37,7 +37,7 @@ $env:PCL_CURSEFORGE_API_KEY = '你自行申请的 CurseForge API Key'
 
 ## 构建与验证
 
-使用 Visual Studio 2022 或更新的 MSBuild（安装 .NET 桌面开发工作负载与 .NET Framework 4.8 目标包）、.NET 10 SDK、PowerShell 7。
+使用 Visual Studio 2022 17.14 或更新的 MSBuild（安装 .NET 桌面开发工作负载与 .NET Framework 4.8 目标包）、.NET 9 SDK、PowerShell 7。
 
 ```powershell
 git clone --recurse-submodules https://github.com/diziqin/PCLR.git
@@ -52,6 +52,8 @@ pwsh ./scripts/Build-Release.ps1 -Configuration Release
 历史发行使用上游原有标签并明确标记为“上游归档”；它们是上游原版，不包含 PCLR 的修复。归档保留发行说明与原始来源。
 
 上游部分发行只有源码，没有公开对应的二进制包。仅归档能够从上游验证的真实文件，不将旧版程序标作新版。具体可用情况、原始提交、Git blob 与 SHA-256 见 [历史归档索引](docs/upstream-history.json)。GitHub 自动生成的源码归档不包含子模块内容，PCLR 自有版本另提供完整源码包。
+
+上游 2.6.15 原始二进制压缩包被本机 Windows 安全软件拦截，按维护者决定不单独重新上传；保留源码记录与上游原包链接。此处不对该历史文件的安全性作结论。
 
 ## 许可与鸣谢
 

@@ -11,6 +11,24 @@ $inspection = @'
 param([string]$Path)
 $ErrorActionPreference = 'Stop'
 $assembly = [Reflection.Assembly]::LoadFile($Path)
+$embeddedLibraries = @{}
+foreach ($resourceName in $assembly.GetManifestResourceNames()) {
+    if (-not $resourceName.EndsWith('.resources')) { continue }
+    $reader = [Resources.ResourceReader]::new($assembly.GetManifestResourceStream($resourceName))
+    try {
+        $entries = $reader.GetEnumerator()
+        while ($entries.MoveNext()) {
+            if ($entries.Value -is [byte[]]) { $embeddedLibraries[$entries.Key] = $entries.Value }
+        }
+    } finally { $reader.Dispose() }
+}
+$resolver = [ResolveEventHandler]{
+    param($Sender, $EventArgs)
+    $shortName = [Reflection.AssemblyName]::new($EventArgs.Name).Name
+    if ($embeddedLibraries.ContainsKey($shortName)) { return [Reflection.Assembly]::Load($embeddedLibraries[$shortName]) }
+    return $null
+}.GetNewClosure()
+[AppDomain]::CurrentDomain.add_AssemblyResolve($resolver)
 $flags = [Reflection.BindingFlags]'Public,NonPublic,Static'
 $secret = $assembly.GetType('PCL.ModSecret', $true)
 if ($secret.GetField('RestrictMcDownload', $flags).GetRawConstantValue() -ne $false) { throw 'Minecraft download is disabled in the binary.' }

@@ -33,6 +33,7 @@ try {
     foreach ($file in @('README.md', 'LICENCE', 'THIRD_PARTY_NOTICES.md', 'UPSTREAM.json')) {
         Copy-Item -LiteralPath (Join-Path $repoRoot $file) -Destination $stage
     }
+    Copy-Item -LiteralPath (Join-Path $repoRoot 'MeloongCore/LICENSE.txt') -Destination (Join-Path $stage 'MeloongCore.LICENSE.txt')
     $metadata = [ordered]@{
         product = 'Plain Craft Launcher (PCL) PCLR'
         version = $version
